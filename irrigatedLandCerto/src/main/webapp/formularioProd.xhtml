@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:f="http://xmlns.jcp.org/jsf/core"
+      xmlns:p="http://primefaces.org/ui"
+      xmlns:fieldset="http://java.sun.com/jsf/html"
+      xmlns:jsp="http://java.sun.com/jsf/facelets">
+
+    <ui:composition template="_template.xhtml">
+
+        <f:metadata>
+            <f:viewParam name="prodId" value="#{productBean.prodId}"/>
+            <f:viewAction action="#{productBean.getFarmingForId}" if="#{param.prodId != null}"/>
+        </f:metadata>
+
+        <ui:define name="conteudo">
+           <h:panelGrid style="display: flex; justify-content: center; padding: 0; align-items: center;">
+             <h:form >
+               <h:messages id="messages"/>
+                 <p:fieldset legend="Cadastro de Produto"
+                             style="text-align: center; border-width: medium; border-color: black;
+                             position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;
+                             margin: auto; height: fit-content; width: fit-content; box-shadow: 3px 3px 5px #00000045;
+                             background: linear-gradient(#D9B54A, #BF9E75); border-radius: 10px;">
+                   <h:panelGrid columns="2" style="color:black; font-weight: bold; border-radius: 5px;">
+
+                     <p:outputLabel value="Nome" for="nome"/>
+                     <p:inputText type="text" id="nome" value="#{productBean.farming.name}" required="true"
+                                  requiredMessage="Definir o Nome é Necessário">
+                       <f:ajax event="blur" render="messages"/>
+                     </p:inputText>
+
+                     <p:outputLabel value="Umidade (%)" for="moisture"/>
+                     <p:inputText id="moisture" value="#{productBean.farming.moisture}" required="true"
+                                  requiredMessage="Necessário Definir a Porcentagem de Umidade">
+                       <f:ajax event="blur" render="messages"/>
+                     </p:inputText>
+
+                     <p:outputLabel value="Temperatura" for="Temperatura"/>
+                     <p:inputText id="Temperatura" value="#{productBean.farming.temperature}" required="true"
+                                    requiredMessage="Necessário Definir a Temperatura Ideal do Produto">
+                       <f:ajax event="blur" render="messages"/>
+                     </p:inputText>
+
+                   </h:panelGrid>
+                     <h:panelGrid style="margin: 10px auto 0px auto;">
+                     <p:commandButton value="Gravar" action="#{productBean.saveProduct}"
+                                      process="@form" update="@form"
+                                      style="background: #FFBD4F; border-color: #FFBD4F;
+                                      color: black; border-radius: 10px; font-weight: bold;"/>
+                     </h:panelGrid>
+                 </p:fieldset>
+             </h:form>
+           </h:panelGrid>
+            <h:outputStylesheet library="primefaces-nova-dark" name="theme.css"/>
+        </ui:define>
+    </ui:composition>
+</html>

@@ -1,0 +1,1008 @@
+2023-10-22 01:12:48,875 INFO  [org.jboss.modules] (main) JBoss Modules version 1.9.1.Final
+2023-10-22 01:12:49,969 INFO  [org.jboss.msc] (main) JBoss MSC version 1.4.11.Final
+2023-10-22 01:12:49,989 INFO  [org.jboss.threads] (main) JBoss Threads version 2.3.3.Final
+2023-10-22 01:12:50,191 INFO  [org.jboss.as] (MSC service thread 1-2) WFLYSRV0049: WildFly Full 18.0.0.Final (WildFly Core 10.0.0.Final) starting
+2023-10-22 01:12:50,193 DEBUG [org.jboss.as.config] (MSC service thread 1-2) Configured system properties:
+	awt.toolkit = sun.awt.windows.WToolkit
+	file.encoding = Cp1252
+	file.encoding.pkg = sun.io
+	file.separator = \
+	intellij.debug.agent = true
+	java.awt.graphicsenv = sun.awt.Win32GraphicsEnvironment
+	java.awt.printerjob = sun.awt.windows.WPrinterJob
+	java.class.path = C:\Users\Maicon\IdeaProjects\irrigatedLandCerto\wildfly-18.0.0.Final\jboss-modules.jar;C:\Users\Maicon\AppData\Local\JetBrains\IntelliJIdea2023.2\captureAgent\debugger-agent.jar
+	java.class.version = 52.0
+	java.endorsed.dirs = C:\Program Files\Java\jdk-1.8\jre\lib\endorsed
+	java.ext.dirs = C:\Program Files\Java\jdk-1.8\jre\lib\ext;C:\Windows\Sun\Java\lib\ext
+	java.home = C:\Program Files\Java\jdk-1.8\jre
+	java.io.tmpdir = C:\Users\Maicon\AppData\Local\Temp\
+	java.library.path = C:\Program Files\Java\jdk-1.8\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;%JAVA_HOME%\bin;%M2_HOME%\bin;C:\Program Files\maven\apache-maven-3.9.3\bin;C:\Program Files\Git\cmd;C:\Users\Maicon\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\IntelliJ IDEA 2023.2.2\bin;;C:\Program Files\maven\apache-maven-3.9.3\bin;;C:\Users\Maicon\AppData\Local\Programs\Microsoft VS Code\bin;.
+	java.runtime.name = Java(TM) SE Runtime Environment
+	java.runtime.version = 1.8.0_371-b11
+	java.specification.maintenance.version = 4
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 1.8
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = http://java.oracle.com/
+	java.vendor.url.bug = http://bugreport.sun.com/bugreport/
+	java.version = 1.8.0_371
+	java.vm.info = mixed mode
+	java.vm.name = Java HotSpot(TM) 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 1.8
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 25.371-b11
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	jboss.home.dir = C:\Users\Maicon\IdeaProjects\irrigatedLandCerto\wildfly-18.0.0.Final
+	jboss.host.name = desktop-es9jb79
+	jboss.modules.dir = C:\Users\Maicon\IdeaProjects\irrigatedLandCerto\wildfly-18.0.0.Final\modules
+	jboss.modules.system.pkgs = com.intellij.rt
+	jboss.node.name = desktop-es9jb79
+	jboss.qualified.host.name = desktop-es9jb79
+	jboss.server.base.dir = C:\Users\Maicon\IdeaProjects\irrigatedLandCerto\wildfly-18.0.0.Final\standalone
+	jboss.server.config.dir = C:\Users\Maicon\IdeaProjects\irrigatedLandCerto\wildfly-18.0.0.Final\standalone\configuration
+	jboss.server.data.dir = C:\Users\Maicon\IdeaProjects\irrigatedLandCerto\wildfly-18.0.0.Final\standalone\data
+	jboss.server.deploy.dir = C:\Users\Maicon\IdeaProjects\irrigatedLandCerto\wildfly-18.0.0.Final\standalone\data\content
+	jboss.server.log.dir = C:\Users\Maicon\IdeaProjects\irrigatedLandCerto\wildfly-18.0.0.Final\standalone\log
+	jboss.server.name = desktop-es9jb79
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = C:\Users\Maicon\IdeaProjects\irrigatedLandCerto\wildfly-18.0.0.Final\standalone\tmp
+	line.separator = 
+
+	logging.configuration = file:C:\Users\Maicon\IdeaProjects\irrigatedLandCerto\wildfly-18.0.0.Final\standalone\configuration/logging.properties
+	module.path = C:\Users\Maicon\IdeaProjects\irrigatedLandCerto\wildfly-18.0.0.Final\modules
+	org.jboss.boot.log.file = C:\Users\Maicon\IdeaProjects\irrigatedLandCerto\wildfly-18.0.0.Final\standalone\log\server.log
+	org.jboss.resolver.warning = true
+	os.arch = amd64
+	os.name = Windows 10
+	os.version = 10.0
+	path.separator = ;
+	program.name = standalone.bat
+	sun.arch.data.model = 64
+	sun.boot.class.path = C:\Program Files\Java\jdk-1.8\jre\lib\resources.jar;C:\Program Files\Java\jdk-1.8\jre\lib\rt.jar;C:\Program Files\Java\jdk-1.8\jre\lib\jsse.jar;C:\Program Files\Java\jdk-1.8\jre\lib\jce.jar;C:\Program Files\Java\jdk-1.8\jre\lib\charsets.jar;C:\Program Files\Java\jdk-1.8\jre\lib\jfr.jar;C:\Program Files\Java\jdk-1.8\jre\classes;C:\Users\Maicon\AppData\Local\JetBrains\IntelliJIdea2023.2\captureAgent\debugger-agent.jar
+	sun.boot.library.path = C:\Program Files\Java\jdk-1.8\jre\bin
+	sun.cpu.endian = little
+	sun.cpu.isalist = amd64
+	sun.desktop = windows
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = C:\Users\Maicon\IdeaProjects\irrigatedLandCerto\wildfly-18.0.0.Final\jboss-modules.jar -mp C:\Users\Maicon\IdeaProjects\irrigatedLandCerto\wildfly-18.0.0.Final\modules org.jboss.as.standalone -Djboss.home.dir=C:\Users\Maicon\IdeaProjects\irrigatedLandCerto\wildfly-18.0.0.Final
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = Cp1252
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = 
+	user.country = BR
+	user.dir = C:\Users\Maicon\IdeaProjects\irrigatedLandCerto\wildfly-18.0.0.Final\bin
+	user.home = C:\Users\Maicon
+	user.language = pt
+	user.name = Maicon
+	user.script = 
+	user.timezone = America/Sao_Paulo
+	user.variant = 
+2023-10-22 01:12:50,194 DEBUG [org.jboss.as.config] (MSC service thread 1-2) VM Arguments: -Dprogram.name=standalone.bat -agentlib:jdwp=transport=dt_socket,address=127.0.0.1:53392,suspend=y,server=n -javaagent:C:\Users\Maicon\AppData\Local\JetBrains\IntelliJIdea2023.2\captureAgent\debugger-agent.jar -Dorg.jboss.boot.log.file=C:\Users\Maicon\IdeaProjects\irrigatedLandCerto\wildfly-18.0.0.Final\standalone\log\server.log -Dlogging.configuration=file:C:\Users\Maicon\IdeaProjects\irrigatedLandCerto\wildfly-18.0.0.Final\standalone\configuration/logging.properties 
+2023-10-22 01:12:52,615 INFO  [org.wildfly.security] (ServerService Thread Pool -- 28) ELY00001: WildFly Elytron version 1.10.3.Final
+2023-10-22 01:12:55,037 INFO  [org.jboss.as.controller.management-deprecated] (Controller Boot Thread) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/core-service=management/management-interface=http-interface' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2023-10-22 01:12:55,122 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 22) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/subsystem=undertow/server=default-server/https-listener=https' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2023-10-22 01:12:55,289 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creating http management service using socket-binding (management-http)
+2023-10-22 01:12:55,328 INFO  [org.xnio] (MSC service thread 1-6) XNIO version 3.7.3.Final
+2023-10-22 01:12:55,338 INFO  [org.xnio.nio] (MSC service thread 1-6) XNIO NIO Implementation Version 3.7.3.Final
+2023-10-22 01:12:55,750 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 72) WFLYTX0013: The node-identifier attribute on the /subsystem=transactions is set to the default value. This is a danger for environments running multiple servers. Please make sure the attribute value is unique.
+2023-10-22 01:12:55,775 INFO  [org.wildfly.extension.microprofile.config.smallrye._private] (ServerService Thread Pool -- 60) WFLYCONF0001: Activating WildFly MicroProfile Config Subsystem
+2023-10-22 01:12:55,799 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 51) WFLYCLINF0001: Activating Infinispan subsystem.
+2023-10-22 01:12:55,815 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 64) WFLYNAM0001: Activating Naming Subsystem
+2023-10-22 01:12:55,827 INFO  [org.wildfly.extension.microprofile.opentracing] (ServerService Thread Pool -- 63) WFLYTRACEXT0001: Activating MicroProfile OpenTracing Subsystem
+2023-10-22 01:12:55,833 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 74) WFLYWS0002: Activating WebServices Extension
+2023-10-22 01:12:55,838 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 70) WFLYSEC0002: Activating Security Subsystem
+2023-10-22 01:12:55,880 INFO  [org.wildfly.extension.microprofile.health.smallrye] (ServerService Thread Pool -- 61) WFLYHEALTH0001: Activating Eclipse MicroProfile Health Subsystem
+2023-10-22 01:12:55,883 INFO  [org.jboss.as.jaxrs] (ServerService Thread Pool -- 53) WFLYRS0016: RESTEasy version 3.9.0.Final
+2023-10-22 01:12:55,894 INFO  [org.jboss.as.connector] (MSC service thread 1-3) WFLYJCA0009: Starting JCA Subsystem (WildFly/IronJacamar 1.4.17.Final)
+2023-10-22 01:12:55,902 INFO  [org.wildfly.extension.microprofile.metrics.smallrye] (ServerService Thread Pool -- 62) WFLYMETRICS0001: Activating Eclipse MicroProfile Metrics Subsystem
+2023-10-22 01:12:55,897 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 58) WFLYJSF0007: Activated the following JSF Implementations: [main]
+2023-10-22 01:12:55,923 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 52) WFLYIO001: Worker 'default' has auto-configured to 8 core threads with 64 task threads based on your 4 available processors
+2023-10-22 01:12:55,930 INFO  [org.jboss.as.security] (MSC service thread 1-3) WFLYSEC0001: Current PicketBox version=5.0.3.Final
+2023-10-22 01:12:56,065 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-7) WFLYUT0003: Undertow 2.0.26.Final starting
+2023-10-22 01:12:56,089 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 43) WFLYJCA0005: Deploying non-JDBC-compliant driver class org.postgresql.Driver (version 42.5)
+2023-10-22 01:12:56,261 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-8) WFLYJCA0018: Started Driver service with driver-name = h2
+2023-10-22 01:12:56,276 INFO  [org.jboss.as.naming] (MSC service thread 1-1) WFLYNAM0003: Starting Naming Service
+2023-10-22 01:12:56,295 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-5) WFLYMAIL0001: Bound mail session [java:jboss/mail/Default]
+2023-10-22 01:12:56,474 INFO  [org.jboss.remoting] (MSC service thread 1-6) JBoss Remoting version 5.0.15.Final
+2023-10-22 01:12:56,481 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 73) WFLYUT0014: Creating file handler for path 'C:\Users\Maicon\IdeaProjects\irrigatedLandCerto\wildfly-18.0.0.Final/welcome-content' with options [directory-listing: 'false', follow-symlink: 'false', case-sensitive: 'true', safe-symlink-paths: '[]']
+2023-10-22 01:12:56,637 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0012: Started server default-server.
+2023-10-22 01:12:56,668 INFO  [org.jboss.as.ejb3] (MSC service thread 1-4) WFLYEJB0481: Strict pool slsb-strict-max-pool is using a max instance size of 64 (per class), which is derived from thread worker pool sizing.
+2023-10-22 01:12:56,670 INFO  [org.jboss.as.ejb3] (MSC service thread 1-7) WFLYEJB0482: Strict pool mdb-strict-max-pool is using a max instance size of 16 (per class), which is derived from the number of CPUs on this host.
+2023-10-22 01:12:56,692 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0018: Host default-host starting
+2023-10-22 01:12:56,851 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-3) WFLYJCA0098: Bound non-transactional data source: java:jboss/datasources/ExampleDS
+2023-10-22 01:12:57,444 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0006: Undertow HTTP listener default listening on [0:0:0:0:0:0:0:0]:8080
+2023-10-22 01:12:58,672 INFO  [org.jboss.as.ejb3] (MSC service thread 1-3) WFLYEJB0493: EJB subsystem suspension complete
+2023-10-22 01:12:59,062 INFO  [org.jboss.as.patching] (MSC service thread 1-8) WFLYPAT0050: WildFly Full cumulative patch ID is: base, one-off patches include: none
+2023-10-22 01:12:59,080 WARN  [org.jboss.as.domain.management.security] (MSC service thread 1-2) WFLYDM0111: Keystore C:\Users\Maicon\IdeaProjects\irrigatedLandCerto\wildfly-18.0.0.Final\standalone\configuration\application.keystore not found, it will be auto generated on first use with a self signed certificate for host localhost
+2023-10-22 01:12:59,088 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-8) WFLYDS0013: Started FileSystemDeploymentService for directory C:\Users\Maicon\IdeaProjects\irrigatedLandCerto\wildfly-18.0.0.Final\standalone\deployments
+2023-10-22 01:13:02,731 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0006: Undertow HTTPS listener https listening on [0:0:0:0:0:0:0:0]:8443
+2023-10-22 01:13:03,321 INFO  [org.jboss.ws.common.management] (MSC service thread 1-2) JBWS022052: Starting JBossWS 5.3.0.Final (Apache CXF 3.3.3) 
+2023-10-22 01:13:03,821 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0212: Resuming server
+2023-10-22 01:13:03,827 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://127.0.0.1:9990/management
+2023-10-22 01:13:03,829 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Admin console listening on http://127.0.0.1:9990
+2023-10-22 01:13:03,829 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Full 18.0.0.Final (WildFly Core 10.0.0.Final) started in 16056ms - Started 315 of 577 services (369 services are lazy, passive or on-demand)
+2023-10-22 01:15:55,769 INFO  [org.jboss.modules] (main) JBoss Modules version 1.9.1.Final
+2023-10-22 01:15:56,952 INFO  [org.jboss.msc] (main) JBoss MSC version 1.4.11.Final
+2023-10-22 01:15:56,975 INFO  [org.jboss.threads] (main) JBoss Threads version 2.3.3.Final
+2023-10-22 01:15:57,251 INFO  [org.jboss.as] (MSC service thread 1-2) WFLYSRV0049: WildFly Full 18.0.0.Final (WildFly Core 10.0.0.Final) starting
+2023-10-22 01:15:57,253 DEBUG [org.jboss.as.config] (MSC service thread 1-2) Configured system properties:
+	awt.toolkit = sun.awt.windows.WToolkit
+	file.encoding = Cp1252
+	file.encoding.pkg = sun.io
+	file.separator = \
+	intellij.debug.agent = true
+	java.awt.graphicsenv = sun.awt.Win32GraphicsEnvironment
+	java.awt.printerjob = sun.awt.windows.WPrinterJob
+	java.class.path = C:\Users\Maicon\IdeaProjects\irrigatedLandCerto\wildfly-18.0.0.Final\jboss-modules.jar;C:\Users\Maicon\AppData\Local\JetBrains\IntelliJIdea2023.2\captureAgent\debugger-agent.jar
+	java.class.version = 52.0
+	java.endorsed.dirs = C:\Program Files\Java\jdk-1.8\jre\lib\endorsed
+	java.ext.dirs = C:\Program Files\Java\jdk-1.8\jre\lib\ext;C:\Windows\Sun\Java\lib\ext
+	java.home = C:\Program Files\Java\jdk-1.8\jre
+	java.io.tmpdir = C:\Users\Maicon\AppData\Local\Temp\
+	java.library.path = C:\Program Files\Java\jdk-1.8\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;%JAVA_HOME%\bin;%M2_HOME%\bin;C:\Program Files\maven\apache-maven-3.9.3\bin;C:\Program Files\Git\cmd;C:\Users\Maicon\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\IntelliJ IDEA 2023.2.2\bin;;C:\Program Files\maven\apache-maven-3.9.3\bin;;C:\Users\Maicon\AppData\Local\Programs\Microsoft VS Code\bin;.
+	java.runtime.name = Java(TM) SE Runtime Environment
+	java.runtime.version = 1.8.0_371-b11
+	java.specification.maintenance.version = 4
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 1.8
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = http://java.oracle.com/
+	java.vendor.url.bug = http://bugreport.sun.com/bugreport/
+	java.version = 1.8.0_371
+	java.vm.info = mixed mode
+	java.vm.name = Java HotSpot(TM) 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 1.8
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 25.371-b11
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	jboss.home.dir = C:\Users\Maicon\IdeaProjects\irrigatedLandCerto\wildfly-18.0.0.Final
+	jboss.host.name = desktop-es9jb79
+	jboss.modules.dir = C:\Users\Maicon\IdeaProjects\irrigatedLandCerto\wildfly-18.0.0.Final\modules
+	jboss.modules.system.pkgs = com.intellij.rt
+	jboss.node.name = desktop-es9jb79
+	jboss.qualified.host.name = desktop-es9jb79
+	jboss.server.base.dir = C:\Users\Maicon\IdeaProjects\irrigatedLandCerto\wildfly-18.0.0.Final\standalone
+	jboss.server.config.dir = C:\Users\Maicon\IdeaProjects\irrigatedLandCerto\wildfly-18.0.0.Final\standalone\configuration
+	jboss.server.data.dir = C:\Users\Maicon\IdeaProjects\irrigatedLandCerto\wildfly-18.0.0.Final\standalone\data
+	jboss.server.deploy.dir = C:\Users\Maicon\IdeaProjects\irrigatedLandCerto\wildfly-18.0.0.Final\standalone\data\content
+	jboss.server.log.dir = C:\Users\Maicon\IdeaProjects\irrigatedLandCerto\wildfly-18.0.0.Final\standalone\log
+	jboss.server.name = desktop-es9jb79
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = C:\Users\Maicon\IdeaProjects\irrigatedLandCerto\wildfly-18.0.0.Final\standalone\tmp
+	line.separator = 
+
+	logging.configuration = file:C:\Users\Maicon\IdeaProjects\irrigatedLandCerto\wildfly-18.0.0.Final\standalone\configuration/logging.properties
+	module.path = C:\Users\Maicon\IdeaProjects\irrigatedLandCerto\wildfly-18.0.0.Final\modules
+	org.jboss.boot.log.file = C:\Users\Maicon\IdeaProjects\irrigatedLandCerto\wildfly-18.0.0.Final\standalone\log\server.log
+	org.jboss.resolver.warning = true
+	os.arch = amd64
+	os.name = Windows 10
+	os.version = 10.0
+	path.separator = ;
+	program.name = standalone.bat
+	sun.arch.data.model = 64
+	sun.boot.class.path = C:\Program Files\Java\jdk-1.8\jre\lib\resources.jar;C:\Program Files\Java\jdk-1.8\jre\lib\rt.jar;C:\Program Files\Java\jdk-1.8\jre\lib\jsse.jar;C:\Program Files\Java\jdk-1.8\jre\lib\jce.jar;C:\Program Files\Java\jdk-1.8\jre\lib\charsets.jar;C:\Program Files\Java\jdk-1.8\jre\lib\jfr.jar;C:\Program Files\Java\jdk-1.8\jre\classes;C:\Users\Maicon\AppData\Local\JetBrains\IntelliJIdea2023.2\captureAgent\debugger-agent.jar
+	sun.boot.library.path = C:\Program Files\Java\jdk-1.8\jre\bin
+	sun.cpu.endian = little
+	sun.cpu.isalist = amd64
+	sun.desktop = windows
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = C:\Users\Maicon\IdeaProjects\irrigatedLandCerto\wildfly-18.0.0.Final\jboss-modules.jar -mp C:\Users\Maicon\IdeaProjects\irrigatedLandCerto\wildfly-18.0.0.Final\modules org.jboss.as.standalone -Djboss.home.dir=C:\Users\Maicon\IdeaProjects\irrigatedLandCerto\wildfly-18.0.0.Final
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = Cp1252
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = 
+	user.country = BR
+	user.dir = C:\Users\Maicon\IdeaProjects\irrigatedLandCerto\wildfly-18.0.0.Final\bin
+	user.home = C:\Users\Maicon
+	user.language = pt
+	user.name = Maicon
+	user.script = 
+	user.timezone = America/Sao_Paulo
+	user.variant = 
+2023-10-22 01:15:57,254 DEBUG [org.jboss.as.config] (MSC service thread 1-2) VM Arguments: -Dprogram.name=standalone.bat -agentlib:jdwp=transport=dt_socket,address=127.0.0.1:53392,suspend=y,server=n -javaagent:C:\Users\Maicon\AppData\Local\JetBrains\IntelliJIdea2023.2\captureAgent\debugger-agent.jar -Dorg.jboss.boot.log.file=C:\Users\Maicon\IdeaProjects\irrigatedLandCerto\wildfly-18.0.0.Final\standalone\log\server.log -Dlogging.configuration=file:C:\Users\Maicon\IdeaProjects\irrigatedLandCerto\wildfly-18.0.0.Final\standalone\configuration/logging.properties 
+2023-10-22 01:15:59,261 INFO  [org.wildfly.security] (ServerService Thread Pool -- 28) ELY00001: WildFly Elytron version 1.10.3.Final
+2023-10-22 01:16:00,562 INFO  [org.jboss.as.controller.management-deprecated] (Controller Boot Thread) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/core-service=management/management-interface=http-interface' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2023-10-22 01:16:00,674 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 26) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/subsystem=undertow/server=default-server/https-listener=https' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2023-10-22 01:16:00,737 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creating http management service using socket-binding (management-http)
+2023-10-22 01:16:00,796 INFO  [org.xnio] (MSC service thread 1-2) XNIO version 3.7.3.Final
+2023-10-22 01:16:00,821 INFO  [org.xnio.nio] (MSC service thread 1-2) XNIO NIO Implementation Version 3.7.3.Final
+2023-10-22 01:16:00,983 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 70) WFLYSEC0002: Activating Security Subsystem
+2023-10-22 01:16:01,005 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 64) WFLYNAM0001: Activating Naming Subsystem
+2023-10-22 01:16:01,009 INFO  [org.wildfly.extension.microprofile.metrics.smallrye] (ServerService Thread Pool -- 62) WFLYMETRICS0001: Activating Eclipse MicroProfile Metrics Subsystem
+2023-10-22 01:16:01,013 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 74) WFLYWS0002: Activating WebServices Extension
+2023-10-22 01:16:01,058 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 72) WFLYTX0013: The node-identifier attribute on the /subsystem=transactions is set to the default value. This is a danger for environments running multiple servers. Please make sure the attribute value is unique.
+2023-10-22 01:16:01,065 INFO  [org.wildfly.extension.microprofile.config.smallrye._private] (ServerService Thread Pool -- 60) WFLYCONF0001: Activating WildFly MicroProfile Config Subsystem
+2023-10-22 01:16:01,068 INFO  [org.wildfly.extension.microprofile.opentracing] (ServerService Thread Pool -- 63) WFLYTRACEXT0001: Activating MicroProfile OpenTracing Subsystem
+2023-10-22 01:16:00,972 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 51) WFLYCLINF0001: Activating Infinispan subsystem.
+2023-10-22 01:16:01,163 INFO  [org.jboss.as.security] (MSC service thread 1-1) WFLYSEC0001: Current PicketBox version=5.0.3.Final
+2023-10-22 01:16:01,203 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 58) WFLYJSF0007: Activated the following JSF Implementations: [main]
+2023-10-22 01:16:01,270 INFO  [org.jboss.as.jaxrs] (ServerService Thread Pool -- 53) WFLYRS0016: RESTEasy version 3.9.0.Final
+2023-10-22 01:16:01,283 INFO  [org.wildfly.extension.microprofile.health.smallrye] (ServerService Thread Pool -- 61) WFLYHEALTH0001: Activating Eclipse MicroProfile Health Subsystem
+2023-10-22 01:16:01,371 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-7) WFLYUT0003: Undertow 2.0.26.Final starting
+2023-10-22 01:16:01,451 INFO  [org.jboss.as.connector] (MSC service thread 1-1) WFLYJCA0009: Starting JCA Subsystem (WildFly/IronJacamar 1.4.17.Final)
+2023-10-22 01:16:01,526 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 43) WFLYJCA0005: Deploying non-JDBC-compliant driver class org.postgresql.Driver (version 42.5)
+2023-10-22 01:16:01,582 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-5) WFLYJCA0018: Started Driver service with driver-name = h2
+2023-10-22 01:16:01,860 INFO  [org.jboss.as.naming] (MSC service thread 1-6) WFLYNAM0003: Starting Naming Service
+2023-10-22 01:16:01,866 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-5) WFLYMAIL0001: Bound mail session [java:jboss/mail/Default]
+2023-10-22 01:16:02,097 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 73) WFLYUT0014: Creating file handler for path 'C:\Users\Maicon\IdeaProjects\irrigatedLandCerto\wildfly-18.0.0.Final/welcome-content' with options [directory-listing: 'false', follow-symlink: 'false', case-sensitive: 'true', safe-symlink-paths: '[]']
+2023-10-22 01:16:02,432 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-6) WFLYJCA0098: Bound non-transactional data source: java:jboss/datasources/ExampleDS
+2023-10-22 01:16:02,998 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 52) WFLYIO001: Worker 'default' has auto-configured to 8 core threads with 64 task threads based on your 4 available processors
+2023-10-22 01:16:03,015 INFO  [org.jboss.as.ejb3] (MSC service thread 1-6) WFLYEJB0482: Strict pool mdb-strict-max-pool is using a max instance size of 16 (per class), which is derived from the number of CPUs on this host.
+2023-10-22 01:16:03,017 INFO  [org.jboss.as.ejb3] (MSC service thread 1-4) WFLYEJB0481: Strict pool slsb-strict-max-pool is using a max instance size of 64 (per class), which is derived from thread worker pool sizing.
+2023-10-22 01:16:03,434 INFO  [org.jboss.as.patching] (MSC service thread 1-6) WFLYPAT0050: WildFly Full cumulative patch ID is: base, one-off patches include: none
+2023-10-22 01:16:03,436 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0012: Started server default-server.
+2023-10-22 01:16:03,438 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0018: Host default-host starting
+2023-10-22 01:16:03,461 INFO  [org.jboss.remoting] (MSC service thread 1-5) JBoss Remoting version 5.0.15.Final
+2023-10-22 01:16:03,521 WARN  [org.jboss.as.domain.management.security] (MSC service thread 1-2) WFLYDM0111: Keystore C:\Users\Maicon\IdeaProjects\irrigatedLandCerto\wildfly-18.0.0.Final\standalone\configuration\application.keystore not found, it will be auto generated on first use with a self signed certificate for host localhost
+2023-10-22 01:16:03,536 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-1) WFLYDS0013: Started FileSystemDeploymentService for directory C:\Users\Maicon\IdeaProjects\irrigatedLandCerto\wildfly-18.0.0.Final\standalone\deployments
+2023-10-22 01:16:03,551 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) WFLYUT0006: Undertow HTTP listener default listening on [0:0:0:0:0:0:0:0]:8081
+2023-10-22 01:16:03,672 INFO  [org.jboss.as.ejb3] (MSC service thread 1-5) WFLYEJB0493: EJB subsystem suspension complete
+2023-10-22 01:16:04,223 ERROR [org.jboss.msc.service.fail] (MSC service thread 1-5) MSC000001: Failed to start service org.wildfly.undertow.listener.https: org.jboss.msc.service.StartException in service org.wildfly.undertow.listener.https: Address already in use: bind /0:0:0:0:0:0:0:0:8443
+	at org.wildfly.extension.undertow.ListenerService.start(ListenerService.java:209)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:1739)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.execute(ServiceControllerImpl.java:1701)
+	at org.jboss.msc.service.ServiceControllerImpl$ControllerTask.run(ServiceControllerImpl.java:1559)
+	at org.jboss.threads.ContextClassLoaderSavingRunnable.run(ContextClassLoaderSavingRunnable.java:35)
+	at org.jboss.threads.EnhancedQueueExecutor.safeRun(EnhancedQueueExecutor.java:1982)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask(EnhancedQueueExecutor.java:1486)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1377)
+	at java.lang.Thread.run(Thread.java:750)
+
+2023-10-22 01:16:04,393 ERROR [org.jboss.as.controller.management-operation] (Controller Boot Thread) WFLYCTL0013: Operation ("add") failed - address: ([
+    ("subsystem" => "undertow"),
+    ("server" => "default-server"),
+    ("https-listener" => "https")
+]) - failure description: {"WFLYCTL0080: Failed services" => {"org.wildfly.undertow.listener.https" => "Address already in use: bind /0:0:0:0:0:0:0:0:8443"}}
+2023-10-22 01:16:04,625 INFO  [org.jboss.as.controller] (Controller Boot Thread) WFLYCTL0183: Service status report
+WFLYCTL0186:   Services which failed to start:      service org.wildfly.undertow.listener.https: Address already in use: bind /0:0:0:0:0:0:0:0:8443
+WFLYCTL0448: 1 additional services are down due to their dependencies being missing or failed
+2023-10-22 01:16:04,875 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0212: Resuming server
+2023-10-22 01:16:04,881 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://127.0.0.1:9991/management
+2023-10-22 01:16:04,883 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Admin console listening on http://127.0.0.1:9991
+2023-10-22 01:16:04,884 ERROR [org.jboss.as] (Controller Boot Thread) WFLYSRV0026: WildFly Full 18.0.0.Final (WildFly Core 10.0.0.Final) started (with errors) in 10843ms - Started 310 of 576 services (2 services failed or missing dependencies, 369 services are lazy, passive or on-demand)
+2023-10-22 01:16:07,269 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0027: Starting deployment of "irrigatedLand-1.0-SNAPSHOT.war" (runtime-name: "irrigatedLand-1.0-SNAPSHOT.war")
+2023-10-22 01:16:54,174 INFO  [org.jboss.modules] (main) JBoss Modules version 1.9.1.Final
+2023-10-22 01:16:55,088 INFO  [org.jboss.msc] (main) JBoss MSC version 1.4.11.Final
+2023-10-22 01:16:55,106 INFO  [org.jboss.threads] (main) JBoss Threads version 2.3.3.Final
+2023-10-22 01:16:55,315 INFO  [org.jboss.as] (MSC service thread 1-2) WFLYSRV0049: WildFly Full 18.0.0.Final (WildFly Core 10.0.0.Final) starting
+2023-10-22 01:16:55,318 DEBUG [org.jboss.as.config] (MSC service thread 1-2) Configured system properties:
+	awt.toolkit = sun.awt.windows.WToolkit
+	file.encoding = Cp1252
+	file.encoding.pkg = sun.io
+	file.separator = \
+	intellij.debug.agent = true
+	java.awt.graphicsenv = sun.awt.Win32GraphicsEnvironment
+	java.awt.printerjob = sun.awt.windows.WPrinterJob
+	java.class.path = C:\Users\Maicon\IdeaProjects\irrigatedLandCerto\wildfly-18.0.0.Final\jboss-modules.jar;C:\Users\Maicon\AppData\Local\JetBrains\IntelliJIdea2023.2\captureAgent\debugger-agent.jar
+	java.class.version = 52.0
+	java.endorsed.dirs = C:\Program Files\Java\jdk-1.8\jre\lib\endorsed
+	java.ext.dirs = C:\Program Files\Java\jdk-1.8\jre\lib\ext;C:\Windows\Sun\Java\lib\ext
+	java.home = C:\Program Files\Java\jdk-1.8\jre
+	java.io.tmpdir = C:\Users\Maicon\AppData\Local\Temp\
+	java.library.path = C:\Program Files\Java\jdk-1.8\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;%JAVA_HOME%\bin;%M2_HOME%\bin;C:\Program Files\maven\apache-maven-3.9.3\bin;C:\Program Files\Git\cmd;C:\Users\Maicon\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\IntelliJ IDEA 2023.2.2\bin;;C:\Program Files\maven\apache-maven-3.9.3\bin;;C:\Users\Maicon\AppData\Local\Programs\Microsoft VS Code\bin;.
+	java.runtime.name = Java(TM) SE Runtime Environment
+	java.runtime.version = 1.8.0_371-b11
+	java.specification.maintenance.version = 4
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 1.8
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = http://java.oracle.com/
+	java.vendor.url.bug = http://bugreport.sun.com/bugreport/
+	java.version = 1.8.0_371
+	java.vm.info = mixed mode
+	java.vm.name = Java HotSpot(TM) 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 1.8
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 25.371-b11
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	jboss.home.dir = C:\Users\Maicon\IdeaProjects\irrigatedLandCerto\wildfly-18.0.0.Final
+	jboss.host.name = desktop-es9jb79
+	jboss.modules.dir = C:\Users\Maicon\IdeaProjects\irrigatedLandCerto\wildfly-18.0.0.Final\modules
+	jboss.modules.system.pkgs = com.intellij.rt
+	jboss.node.name = desktop-es9jb79
+	jboss.qualified.host.name = desktop-es9jb79
+	jboss.server.base.dir = C:\Users\Maicon\IdeaProjects\irrigatedLandCerto\wildfly-18.0.0.Final\standalone
+	jboss.server.config.dir = C:\Users\Maicon\IdeaProjects\irrigatedLandCerto\wildfly-18.0.0.Final\standalone\configuration
+	jboss.server.data.dir = C:\Users\Maicon\IdeaProjects\irrigatedLandCerto\wildfly-18.0.0.Final\standalone\data
+	jboss.server.deploy.dir = C:\Users\Maicon\IdeaProjects\irrigatedLandCerto\wildfly-18.0.0.Final\standalone\data\content
+	jboss.server.log.dir = C:\Users\Maicon\IdeaProjects\irrigatedLandCerto\wildfly-18.0.0.Final\standalone\log
+	jboss.server.name = desktop-es9jb79
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = C:\Users\Maicon\IdeaProjects\irrigatedLandCerto\wildfly-18.0.0.Final\standalone\tmp
+	line.separator = 
+
+	logging.configuration = file:C:\Users\Maicon\IdeaProjects\irrigatedLandCerto\wildfly-18.0.0.Final\standalone\configuration/logging.properties
+	module.path = C:\Users\Maicon\IdeaProjects\irrigatedLandCerto\wildfly-18.0.0.Final\modules
+	org.jboss.boot.log.file = C:\Users\Maicon\IdeaProjects\irrigatedLandCerto\wildfly-18.0.0.Final\standalone\log\server.log
+	org.jboss.resolver.warning = true
+	os.arch = amd64
+	os.name = Windows 10
+	os.version = 10.0
+	path.separator = ;
+	program.name = standalone.bat
+	sun.arch.data.model = 64
+	sun.boot.class.path = C:\Program Files\Java\jdk-1.8\jre\lib\resources.jar;C:\Program Files\Java\jdk-1.8\jre\lib\rt.jar;C:\Program Files\Java\jdk-1.8\jre\lib\jsse.jar;C:\Program Files\Java\jdk-1.8\jre\lib\jce.jar;C:\Program Files\Java\jdk-1.8\jre\lib\charsets.jar;C:\Program Files\Java\jdk-1.8\jre\lib\jfr.jar;C:\Program Files\Java\jdk-1.8\jre\classes;C:\Users\Maicon\AppData\Local\JetBrains\IntelliJIdea2023.2\captureAgent\debugger-agent.jar
+	sun.boot.library.path = C:\Program Files\Java\jdk-1.8\jre\bin
+	sun.cpu.endian = little
+	sun.cpu.isalist = amd64
+	sun.desktop = windows
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = C:\Users\Maicon\IdeaProjects\irrigatedLandCerto\wildfly-18.0.0.Final\jboss-modules.jar -mp C:\Users\Maicon\IdeaProjects\irrigatedLandCerto\wildfly-18.0.0.Final\modules org.jboss.as.standalone -Djboss.home.dir=C:\Users\Maicon\IdeaProjects\irrigatedLandCerto\wildfly-18.0.0.Final
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = Cp1252
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = 
+	user.country = BR
+	user.dir = C:\Users\Maicon\IdeaProjects\irrigatedLandCerto\wildfly-18.0.0.Final\bin
+	user.home = C:\Users\Maicon
+	user.language = pt
+	user.name = Maicon
+	user.script = 
+	user.timezone = America/Sao_Paulo
+	user.variant = 
+2023-10-22 01:16:55,319 DEBUG [org.jboss.as.config] (MSC service thread 1-2) VM Arguments: -Dprogram.name=standalone.bat -agentlib:jdwp=transport=dt_socket,address=127.0.0.1:53392,suspend=y,server=n -javaagent:C:\Users\Maicon\AppData\Local\JetBrains\IntelliJIdea2023.2\captureAgent\debugger-agent.jar -Dorg.jboss.boot.log.file=C:\Users\Maicon\IdeaProjects\irrigatedLandCerto\wildfly-18.0.0.Final\standalone\log\server.log -Dlogging.configuration=file:C:\Users\Maicon\IdeaProjects\irrigatedLandCerto\wildfly-18.0.0.Final\standalone\configuration/logging.properties 
+2023-10-22 01:16:57,170 INFO  [org.wildfly.security] (ServerService Thread Pool -- 28) ELY00001: WildFly Elytron version 1.10.3.Final
+2023-10-22 01:16:58,188 INFO  [org.jboss.as.controller.management-deprecated] (Controller Boot Thread) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/core-service=management/management-interface=http-interface' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2023-10-22 01:16:58,218 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 4) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/subsystem=undertow/server=default-server/https-listener=https' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2023-10-22 01:16:58,367 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creating http management service using socket-binding (management-http)
+2023-10-22 01:16:58,449 INFO  [org.xnio] (MSC service thread 1-2) XNIO version 3.7.3.Final
+2023-10-22 01:16:58,480 INFO  [org.xnio.nio] (MSC service thread 1-2) XNIO NIO Implementation Version 3.7.3.Final
+2023-10-22 01:16:58,565 INFO  [org.wildfly.extension.microprofile.config.smallrye._private] (ServerService Thread Pool -- 60) WFLYCONF0001: Activating WildFly MicroProfile Config Subsystem
+2023-10-22 01:16:58,569 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 72) WFLYTX0013: The node-identifier attribute on the /subsystem=transactions is set to the default value. This is a danger for environments running multiple servers. Please make sure the attribute value is unique.
+2023-10-22 01:16:58,720 INFO  [org.wildfly.extension.microprofile.opentracing] (ServerService Thread Pool -- 63) WFLYTRACEXT0001: Activating MicroProfile OpenTracing Subsystem
+2023-10-22 01:16:58,738 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 70) WFLYSEC0002: Activating Security Subsystem
+2023-10-22 01:16:58,719 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 64) WFLYNAM0001: Activating Naming Subsystem
+2023-10-22 01:16:58,714 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 74) WFLYWS0002: Activating WebServices Extension
+2023-10-22 01:16:58,666 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 58) WFLYJSF0007: Activated the following JSF Implementations: [main]
+2023-10-22 01:16:58,781 INFO  [org.wildfly.extension.microprofile.metrics.smallrye] (ServerService Thread Pool -- 62) WFLYMETRICS0001: Activating Eclipse MicroProfile Metrics Subsystem
+2023-10-22 01:16:58,790 INFO  [org.jboss.as.security] (MSC service thread 1-1) WFLYSEC0001: Current PicketBox version=5.0.3.Final
+2023-10-22 01:16:58,797 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 51) WFLYCLINF0001: Activating Infinispan subsystem.
+2023-10-22 01:16:58,918 INFO  [org.jboss.as.jaxrs] (ServerService Thread Pool -- 53) WFLYRS0016: RESTEasy version 3.9.0.Final
+2023-10-22 01:16:58,958 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) WFLYUT0003: Undertow 2.0.26.Final starting
+2023-10-22 01:16:58,975 INFO  [org.wildfly.extension.microprofile.health.smallrye] (ServerService Thread Pool -- 61) WFLYHEALTH0001: Activating Eclipse MicroProfile Health Subsystem
+2023-10-22 01:16:59,072 INFO  [org.jboss.as.connector] (MSC service thread 1-1) WFLYJCA0009: Starting JCA Subsystem (WildFly/IronJacamar 1.4.17.Final)
+2023-10-22 01:16:59,334 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 43) WFLYJCA0005: Deploying non-JDBC-compliant driver class org.postgresql.Driver (version 42.5)
+2023-10-22 01:16:59,369 INFO  [org.jboss.as.naming] (MSC service thread 1-8) WFLYNAM0003: Starting Naming Service
+2023-10-22 01:16:59,582 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-1) WFLYJCA0018: Started Driver service with driver-name = h2
+2023-10-22 01:16:59,591 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-1) WFLYMAIL0001: Bound mail session [java:jboss/mail/Default]
+2023-10-22 01:16:59,739 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 73) WFLYUT0014: Creating file handler for path 'C:\Users\Maicon\IdeaProjects\irrigatedLandCerto\wildfly-18.0.0.Final/welcome-content' with options [directory-listing: 'false', follow-symlink: 'false', case-sensitive: 'true', safe-symlink-paths: '[]']
+2023-10-22 01:17:00,175 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-8) WFLYJCA0098: Bound non-transactional data source: java:jboss/datasources/ExampleDS
+2023-10-22 01:17:00,475 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 52) WFLYIO001: Worker 'default' has auto-configured to 8 core threads with 64 task threads based on your 4 available processors
+2023-10-22 01:17:00,485 INFO  [org.jboss.as.ejb3] (MSC service thread 1-5) WFLYEJB0482: Strict pool mdb-strict-max-pool is using a max instance size of 16 (per class), which is derived from the number of CPUs on this host.
+2023-10-22 01:17:00,487 INFO  [org.jboss.as.ejb3] (MSC service thread 1-6) WFLYEJB0481: Strict pool slsb-strict-max-pool is using a max instance size of 64 (per class), which is derived from thread worker pool sizing.
+2023-10-22 01:17:00,763 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) WFLYUT0012: Started server default-server.
+2023-10-22 01:17:00,784 INFO  [org.jboss.as.patching] (MSC service thread 1-6) WFLYPAT0050: WildFly Full cumulative patch ID is: base, one-off patches include: none
+2023-10-22 01:17:00,787 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) WFLYUT0018: Host default-host starting
+2023-10-22 01:17:00,793 INFO  [org.jboss.remoting] (MSC service thread 1-5) JBoss Remoting version 5.0.15.Final
+2023-10-22 01:17:00,875 WARN  [org.jboss.as.domain.management.security] (MSC service thread 1-2) WFLYDM0111: Keystore C:\Users\Maicon\IdeaProjects\irrigatedLandCerto\wildfly-18.0.0.Final\standalone\configuration\application.keystore not found, it will be auto generated on first use with a self signed certificate for host localhost
+2023-10-22 01:17:00,903 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-2) WFLYDS0013: Started FileSystemDeploymentService for directory C:\Users\Maicon\IdeaProjects\irrigatedLandCerto\wildfly-18.0.0.Final\standalone\deployments
+2023-10-22 01:17:00,983 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) WFLYUT0006: Undertow HTTP listener default listening on [0:0:0:0:0:0:0:0]:8081
+2023-10-22 01:17:01,031 INFO  [org.jboss.as.ejb3] (MSC service thread 1-1) WFLYEJB0493: EJB subsystem suspension complete
+2023-10-22 01:17:01,440 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) WFLYUT0006: Undertow HTTPS listener https listening on [0:0:0:0:0:0:0:0]:8441
+2023-10-22 01:17:01,574 INFO  [org.jboss.ws.common.management] (MSC service thread 1-5) JBWS022052: Starting JBossWS 5.3.0.Final (Apache CXF 3.3.3) 
+2023-10-22 01:17:02,024 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0212: Resuming server
+2023-10-22 01:17:02,028 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://127.0.0.1:9991/management
+2023-10-22 01:17:02,028 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Admin console listening on http://127.0.0.1:9991
+2023-10-22 01:17:02,028 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Full 18.0.0.Final (WildFly Core 10.0.0.Final) started in 9096ms - Started 315 of 577 services (369 services are lazy, passive or on-demand)
+2023-10-22 01:17:04,130 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0027: Starting deployment of "irrigatedLand-1.0-SNAPSHOT.war" (runtime-name: "irrigatedLand-1.0-SNAPSHOT.war")
+2023-10-22 01:17:13,345 WARN  [org.jboss.weld.deployer] (MSC service thread 1-5) WFLYWELD0018: Found both WEB-INF/beans.xml and WEB-INF/classes/META-INF/beans.xml. It is not portable to use both locations at the same time. Weld is going to use the former location for this deployment.
+2023-10-22 01:17:13,428 INFO  [org.jboss.as.jpa] (MSC service thread 1-5) WFLYJPA0002: Read persistence.xml for irrigatedLand
+2023-10-22 01:17:14,059 WARN  [org.jboss.as.dependency.private] (MSC service thread 1-5) WFLYSRV0018: Deployment "deployment.irrigatedLand-1.0-SNAPSHOT.war" is using a private module ("org.jboss.resteasy.resteasy-yaml-provider") which may be changed or removed in future versions without notice.
+2023-10-22 01:17:14,654 INFO  [org.jboss.weld.deployer] (MSC service thread 1-5) WFLYWELD0003: Processing weld deployment irrigatedLand-1.0-SNAPSHOT.war
+2023-10-22 01:17:14,740 INFO  [org.infinispan.factories.GlobalComponentRegistry] (MSC service thread 1-3) ISPN000128: Infinispan version: Infinispan 'Infinity Minus ONE +2' 9.4.16.Final
+2023-10-22 01:17:15,219 INFO  [org.hibernate.validator.internal.util.Version] (MSC service thread 1-5) HV000001: Hibernate Validator 6.0.17.Final
+2023-10-22 01:17:15,457 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 22) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'irrigatedLand-1.0-SNAPSHOT.war#irrigatedLand'
+2023-10-22 01:17:15,502 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 22) HHH000204: Processing PersistenceUnitInfo [
+	name: irrigatedLand
+	...]
+2023-10-22 01:17:15,547 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-5) WFLYEJB0473: JNDI bindings for session bean named 'ProductDAO' in deployment unit 'deployment "irrigatedLand-1.0-SNAPSHOT.war"' are as follows:
+
+	java:global/irrigatedLand-1.0-SNAPSHOT/ProductDAO!Farming.Bean.ProductDAO
+	java:app/irrigatedLand-1.0-SNAPSHOT/ProductDAO!Farming.Bean.ProductDAO
+	java:module/ProductDAO!Farming.Bean.ProductDAO
+	ejb:/irrigatedLand-1.0-SNAPSHOT/ProductDAO!Farming.Bean.ProductDAO
+	java:global/irrigatedLand-1.0-SNAPSHOT/ProductDAO
+	java:app/irrigatedLand-1.0-SNAPSHOT/ProductDAO
+	java:module/ProductDAO
+
+2023-10-22 01:17:15,551 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-5) WFLYEJB0473: JNDI bindings for session bean named 'ListUserDAO' in deployment unit 'deployment "irrigatedLand-1.0-SNAPSHOT.war"' are as follows:
+
+	java:global/irrigatedLand-1.0-SNAPSHOT/ListUserDAO!User.Service.ListUserDAO
+	java:app/irrigatedLand-1.0-SNAPSHOT/ListUserDAO!User.Service.ListUserDAO
+	java:module/ListUserDAO!User.Service.ListUserDAO
+	ejb:/irrigatedLand-1.0-SNAPSHOT/ListUserDAO!User.Service.ListUserDAO
+	java:global/irrigatedLand-1.0-SNAPSHOT/ListUserDAO
+	java:app/irrigatedLand-1.0-SNAPSHOT/ListUserDAO
+	java:module/ListUserDAO
+
+2023-10-22 01:17:15,551 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-5) WFLYEJB0473: JNDI bindings for session bean named 'ListUserServiceBean' in deployment unit 'deployment "irrigatedLand-1.0-SNAPSHOT.war"' are as follows:
+
+	java:global/irrigatedLand-1.0-SNAPSHOT/ListUserServiceBean!User.Service.ListUserService
+	java:app/irrigatedLand-1.0-SNAPSHOT/ListUserServiceBean!User.Service.ListUserService
+	java:module/ListUserServiceBean!User.Service.ListUserService
+	ejb:/irrigatedLand-1.0-SNAPSHOT/ListUserServiceBean!User.Service.ListUserService
+	java:global/irrigatedLand-1.0-SNAPSHOT/ListUserServiceBean
+	java:app/irrigatedLand-1.0-SNAPSHOT/ListUserServiceBean
+	java:module/ListUserServiceBean
+
+2023-10-22 01:17:15,554 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-5) WFLYEJB0473: JNDI bindings for session bean named 'ProductServiceBean' in deployment unit 'deployment "irrigatedLand-1.0-SNAPSHOT.war"' are as follows:
+
+	java:global/irrigatedLand-1.0-SNAPSHOT/ProductServiceBean!Farming.Interfaces.ProductService
+	java:app/irrigatedLand-1.0-SNAPSHOT/ProductServiceBean!Farming.Interfaces.ProductService
+	java:module/ProductServiceBean!Farming.Interfaces.ProductService
+	ejb:/irrigatedLand-1.0-SNAPSHOT/ProductServiceBean!Farming.Interfaces.ProductService
+	java:global/irrigatedLand-1.0-SNAPSHOT/ProductServiceBean!Farming.Interfaces.ProductServiceRemote
+	java:app/irrigatedLand-1.0-SNAPSHOT/ProductServiceBean!Farming.Interfaces.ProductServiceRemote
+	java:module/ProductServiceBean!Farming.Interfaces.ProductServiceRemote
+	java:jboss/exported/irrigatedLand-1.0-SNAPSHOT/ProductServiceBean!Farming.Interfaces.ProductServiceRemote
+	ejb:/irrigatedLand-1.0-SNAPSHOT/ProductServiceBean!Farming.Interfaces.ProductServiceRemote
+
+2023-10-22 01:17:15,555 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-5) WFLYEJB0473: JNDI bindings for session bean named 'TopicServiceBean' in deployment unit 'deployment "irrigatedLand-1.0-SNAPSHOT.war"' are as follows:
+
+	java:global/irrigatedLand-1.0-SNAPSHOT/TopicServiceBean!CommunicationMQTT.TopicService
+	java:app/irrigatedLand-1.0-SNAPSHOT/TopicServiceBean!CommunicationMQTT.TopicService
+	java:module/TopicServiceBean!CommunicationMQTT.TopicService
+	ejb:/irrigatedLand-1.0-SNAPSHOT/TopicServiceBean!CommunicationMQTT.TopicService
+	java:global/irrigatedLand-1.0-SNAPSHOT/TopicServiceBean!CommunicationMQTT.TopicRemoteService
+	java:app/irrigatedLand-1.0-SNAPSHOT/TopicServiceBean!CommunicationMQTT.TopicRemoteService
+	java:module/TopicServiceBean!CommunicationMQTT.TopicRemoteService
+	java:jboss/exported/irrigatedLand-1.0-SNAPSHOT/TopicServiceBean!CommunicationMQTT.TopicRemoteService
+	ejb:/irrigatedLand-1.0-SNAPSHOT/TopicServiceBean!CommunicationMQTT.TopicRemoteService
+
+2023-10-22 01:17:15,558 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-5) WFLYEJB0473: JNDI bindings for session bean named 'GetUmidityService' in deployment unit 'deployment "irrigatedLand-1.0-SNAPSHOT.war"' are as follows:
+
+	java:global/irrigatedLand-1.0-SNAPSHOT/GetUmidityService!Dashboard.Service.GetUmidityRemoteService
+	java:app/irrigatedLand-1.0-SNAPSHOT/GetUmidityService!Dashboard.Service.GetUmidityRemoteService
+	java:module/GetUmidityService!Dashboard.Service.GetUmidityRemoteService
+	java:jboss/exported/irrigatedLand-1.0-SNAPSHOT/GetUmidityService!Dashboard.Service.GetUmidityRemoteService
+	ejb:/irrigatedLand-1.0-SNAPSHOT/GetUmidityService!Dashboard.Service.GetUmidityRemoteService
+	java:global/irrigatedLand-1.0-SNAPSHOT/GetUmidityService!Dashboard.Service.GetUmidity
+	java:app/irrigatedLand-1.0-SNAPSHOT/GetUmidityService!Dashboard.Service.GetUmidity
+	java:module/GetUmidityService!Dashboard.Service.GetUmidity
+	ejb:/irrigatedLand-1.0-SNAPSHOT/GetUmidityService!Dashboard.Service.GetUmidity
+
+2023-10-22 01:17:15,561 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-5) WFLYEJB0473: JNDI bindings for session bean named 'StrategyDAO' in deployment unit 'deployment "irrigatedLand-1.0-SNAPSHOT.war"' are as follows:
+
+	java:global/irrigatedLand-1.0-SNAPSHOT/StrategyDAO!Strategy.Bean.StrategyDAO
+	java:app/irrigatedLand-1.0-SNAPSHOT/StrategyDAO!Strategy.Bean.StrategyDAO
+	java:module/StrategyDAO!Strategy.Bean.StrategyDAO
+	ejb:/irrigatedLand-1.0-SNAPSHOT/StrategyDAO!Strategy.Bean.StrategyDAO
+	java:global/irrigatedLand-1.0-SNAPSHOT/StrategyDAO
+	java:app/irrigatedLand-1.0-SNAPSHOT/StrategyDAO
+	java:module/StrategyDAO
+
+2023-10-22 01:17:15,565 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-5) WFLYEJB0473: JNDI bindings for session bean named 'StrategyServiceBean' in deployment unit 'deployment "irrigatedLand-1.0-SNAPSHOT.war"' are as follows:
+
+	java:global/irrigatedLand-1.0-SNAPSHOT/StrategyServiceBean!Strategy.Interfaces.StrategyService
+	java:app/irrigatedLand-1.0-SNAPSHOT/StrategyServiceBean!Strategy.Interfaces.StrategyService
+	java:module/StrategyServiceBean!Strategy.Interfaces.StrategyService
+	ejb:/irrigatedLand-1.0-SNAPSHOT/StrategyServiceBean!Strategy.Interfaces.StrategyService
+	java:global/irrigatedLand-1.0-SNAPSHOT/StrategyServiceBean!Strategy.Interfaces.StrategyRemoteService
+	java:app/irrigatedLand-1.0-SNAPSHOT/StrategyServiceBean!Strategy.Interfaces.StrategyRemoteService
+	java:module/StrategyServiceBean!Strategy.Interfaces.StrategyRemoteService
+	java:jboss/exported/irrigatedLand-1.0-SNAPSHOT/StrategyServiceBean!Strategy.Interfaces.StrategyRemoteService
+	ejb:/irrigatedLand-1.0-SNAPSHOT/StrategyServiceBean!Strategy.Interfaces.StrategyRemoteService
+
+2023-10-22 01:17:15,566 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-5) WFLYEJB0473: JNDI bindings for session bean named 'EndPoint' in deployment unit 'deployment "irrigatedLand-1.0-SNAPSHOT.war"' are as follows:
+
+	java:global/irrigatedLand-1.0-SNAPSHOT/EndPoint!EndPoints.EndPoint
+	java:app/irrigatedLand-1.0-SNAPSHOT/EndPoint!EndPoints.EndPoint
+	java:module/EndPoint!EndPoints.EndPoint
+	ejb:/irrigatedLand-1.0-SNAPSHOT/EndPoint!EndPoints.EndPoint
+	java:global/irrigatedLand-1.0-SNAPSHOT/EndPoint
+	java:app/irrigatedLand-1.0-SNAPSHOT/EndPoint
+	java:module/EndPoint
+
+2023-10-22 01:17:15,567 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-5) WFLYEJB0473: JNDI bindings for session bean named 'LoginServiceBean' in deployment unit 'deployment "irrigatedLand-1.0-SNAPSHOT.war"' are as follows:
+
+	java:global/irrigatedLand-1.0-SNAPSHOT/LoginServiceBean!Mobile.Service.LoginServiceBean
+	java:app/irrigatedLand-1.0-SNAPSHOT/LoginServiceBean!Mobile.Service.LoginServiceBean
+	java:module/LoginServiceBean!Mobile.Service.LoginServiceBean
+	ejb:/irrigatedLand-1.0-SNAPSHOT/LoginServiceBean!Mobile.Service.LoginServiceBean
+	java:global/irrigatedLand-1.0-SNAPSHOT/LoginServiceBean
+	java:app/irrigatedLand-1.0-SNAPSHOT/LoginServiceBean
+	java:module/LoginServiceBean
+
+2023-10-22 01:17:15,568 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-5) WFLYEJB0473: JNDI bindings for session bean named 'JobScheduler' in deployment unit 'deployment "irrigatedLand-1.0-SNAPSHOT.war"' are as follows:
+
+	java:global/irrigatedLand-1.0-SNAPSHOT/JobScheduler!Job.JobScheduler
+	java:app/irrigatedLand-1.0-SNAPSHOT/JobScheduler!Job.JobScheduler
+	java:module/JobScheduler!Job.JobScheduler
+	ejb:/irrigatedLand-1.0-SNAPSHOT/JobScheduler!Job.JobScheduler
+	java:global/irrigatedLand-1.0-SNAPSHOT/JobScheduler
+	java:app/irrigatedLand-1.0-SNAPSHOT/JobScheduler
+	java:module/JobScheduler
+
+2023-10-22 01:17:15,569 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-5) WFLYEJB0473: JNDI bindings for session bean named 'GetTemperatureService' in deployment unit 'deployment "irrigatedLand-1.0-SNAPSHOT.war"' are as follows:
+
+	java:global/irrigatedLand-1.0-SNAPSHOT/GetTemperatureService!Dashboard.Service.GetTemperature
+	java:app/irrigatedLand-1.0-SNAPSHOT/GetTemperatureService!Dashboard.Service.GetTemperature
+	java:module/GetTemperatureService!Dashboard.Service.GetTemperature
+	ejb:/irrigatedLand-1.0-SNAPSHOT/GetTemperatureService!Dashboard.Service.GetTemperature
+	java:global/irrigatedLand-1.0-SNAPSHOT/GetTemperatureService
+	java:app/irrigatedLand-1.0-SNAPSHOT/GetTemperatureService
+	java:module/GetTemperatureService
+
+2023-10-22 01:17:16,152 INFO  [org.hibernate.Version] (ServerService Thread Pool -- 22) HHH000412: Hibernate Core {5.3.12.Final}
+2023-10-22 01:17:16,157 INFO  [org.hibernate.cfg.Environment] (ServerService Thread Pool -- 22) HHH000206: hibernate.properties not found
+2023-10-22 01:17:16,517 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 13) WFLYCLINF0002: Started client-mappings cache from ejb container
+2023-10-22 01:17:16,806 INFO  [org.hibernate.annotations.common.Version] (ServerService Thread Pool -- 22) HCANN000001: Hibernate Commons Annotations {5.0.5.Final}
+2023-10-22 01:17:17,820 WARN  [org.jboss.as.jaxrs] (MSC service thread 1-3) WFLYRS0018: Explicit usage of Jackson annotation in a JAX-RS deployment; the system will disable JSON-B processing for the current deployment. Consider setting the 'resteasy.preferJacksonOverJsonB' property to 'false' to restore JSON-B.
+2023-10-22 01:17:17,827 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-3) WFLYJCA0005: Deploying non-JDBC-compliant driver class org.postgresql.Driver (version 42.5)
+2023-10-22 01:17:17,868 INFO  [org.jboss.weld.Version] (MSC service thread 1-3) WELD-000900: 3.1.2 (Final)
+2023-10-22 01:17:17,986 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-1) WFLYJCA0018: Started Driver service with driver-name = irrigatedLand-1.0-SNAPSHOT.war_org.postgresql.Driver_42_5
+2023-10-22 01:17:18,349 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 22) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'irrigatedLand-1.0-SNAPSHOT.war#irrigatedLand'
+2023-10-22 01:17:18,767 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 22) HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+2023-10-22 01:17:19,061 INFO  [org.hibernate.engine.jdbc.env.internal.LobCreatorBuilderImpl] (ServerService Thread Pool -- 22) HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2023-10-22 01:17:19,072 INFO  [org.hibernate.type.BasicTypeRegistry] (ServerService Thread Pool -- 22) HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@29343d1a
+2023-10-22 01:17:19,084 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 22) Envers integration enabled? : true
+2023-10-22 01:17:20,701 WARN  [org.jboss.weld.Bootstrap] (MSC service thread 1-4) WELD-000146: BeforeBeanDiscovery.addAnnotatedType(AnnotatedType<?>) used for class com.sun.faces.flow.FlowDiscoveryCDIHelper is deprecated from CDI 1.1!
+2023-10-22 01:17:20,706 INFO  [io.smallrye.metrics] (MSC service thread 1-4) MicroProfile: Metrics activated
+2023-10-22 01:17:21,359 WARN  [org.jboss.weld.Validator] (MSC service thread 1-4) WELD-001471: Interceptor method init defined on class Dashboard.Bean.DashboardBean is not defined according to the specification. It should not throw java.io.IOException, which is a checked exception.
+	at Dashboard.Bean.DashboardBean.init(DashboardBean.java:0)
+  StackTrace
+2023-10-22 01:17:21,359 WARN  [org.jboss.weld.Validator] (MSC service thread 1-4) WELD-001471: Interceptor method init defined on class Dashboard.Bean.DashboardBean is not defined according to the specification. It should not throw org.quartz.SchedulerException, which is a checked exception.
+	at Dashboard.Bean.DashboardBean.init(DashboardBean.java:0)
+  StackTrace
+2023-10-22 01:17:21,999 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (ServerService Thread Pool -- 22) Inicializando Mojarra 2.3.9.SP03 para o contexto '/irrigatedLand'
+2023-10-22 01:17:27,556 INFO  [org.primefaces.webapp.PostConstructApplicationEventListener] (ServerService Thread Pool -- 22) Running on PrimeFaces 12.0.0
+2023-10-22 01:17:28,389 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 22) RESTEASY002225: Deploying javax.ws.rs.core.Application: class Mobile.RestApplication
+2023-10-22 01:17:28,390 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 22) RESTEASY002200: Adding class resource Mobile.Login from Application class Mobile.RestApplication
+2023-10-22 01:17:28,390 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 22) RESTEASY002200: Adding class resource Mobile.JobMobile from Application class Mobile.RestApplication
+2023-10-22 01:17:28,506 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 22) WFLYUT0021: Registered web context: '/irrigatedLand' for server 'default-server'
+2023-10-22 01:17:28,703 INFO  [org.jboss.as.server] (management-handler-thread - 1) WFLYSRV0010: Deployed "irrigatedLand-1.0-SNAPSHOT.war" (runtime-name : "irrigatedLand-1.0-SNAPSHOT.war")
+2023-10-22 01:17:35,702 INFO  [stdout] (default task-1) /login.xhtml
+
+2023-10-22 01:17:36,165 INFO  [org.quartz.impl.StdSchedulerFactory] (default task-1) Using default implementation for ThreadExecutor
+2023-10-22 01:17:36,216 INFO  [org.quartz.core.SchedulerSignalerImpl] (default task-1) Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2023-10-22 01:17:36,217 INFO  [org.quartz.core.QuartzScheduler] (default task-1) Quartz Scheduler v.2.3.2 created.
+2023-10-22 01:17:36,219 INFO  [org.quartz.simpl.RAMJobStore] (default task-1) RAMJobStore initialized.
+2023-10-22 01:17:36,221 INFO  [org.quartz.core.QuartzScheduler] (default task-1) Scheduler meta-data: Quartz Scheduler (v2.3.2) 'JobQuartz' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 5 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2023-10-22 01:17:36,222 INFO  [org.quartz.impl.StdSchedulerFactory] (default task-1) Quartz scheduler 'JobQuartz' initialized from default resource file in Quartz package: 'quartz.properties'
+2023-10-22 01:17:36,222 INFO  [org.quartz.impl.StdSchedulerFactory] (default task-1) Quartz scheduler version: 2.3.2
+2023-10-22 01:17:57,879 INFO  [stdout] (default task-1) /login.xhtml
+
+2023-10-22 01:17:58,188 INFO  [org.hibernate.hql.internal.QueryTranslatorFactoryInitiator] (default task-1) HHH000397: Using ASTQueryTranslatorFactory
+2023-10-22 01:17:58,507 INFO  [stdout] (default task-1) /dashboard.xhtml
+
+2023-10-22 01:17:58,617 INFO  [org.quartz.core.QuartzScheduler] (default task-1) Scheduler JobQuartz_$_NON_CLUSTERED started.
+2023-10-22 01:17:58,634 INFO  [org.wildfly.naming] (JobQuartz_Worker-1) WildFly Naming version 1.0.11.Final
+2023-10-22 01:17:58,672 INFO  [org.jboss.ejb.client] (JobQuartz_Worker-1) JBoss EJB Client version 4.0.23.Final
+2023-10-22 01:17:58,696 INFO  [stdout] (JobQuartz_Worker-1) Executando...
+
+2023-10-22 01:17:58,778 INFO  [stdout] (default task-1) C�digo de resposta: 200
+
+2023-10-22 01:17:58,831 INFO  [stdout] (default task-1) temperatura do solo obtida do sensor: {"tmpG":-14.94285679}
+
+2023-10-22 01:17:58,930 INFO  [stdout] (default task-1) C�digo de resposta: 200
+
+2023-10-22 01:17:59,004 INFO  [stdout] (default task-1) C�digo de resposta: 200
+
+2023-10-22 01:17:59,055 INFO  [stdout] (default task-1) temperatura ambiente obtida do sensor: {"umid":7}
+
+2023-10-22 01:17:59,636 INFO  [stdout] (JobQuartz_Worker-1) RandomValue36.0
+2023-10-22 01:17:59,636 INFO  [stdout] (JobQuartz_Worker-1) Message: 0
+
+2023-10-22 01:20:58,637 INFO  [stdout] (JobQuartz_Worker-2) Executando...
+
+2023-10-22 01:20:58,647 INFO  [stdout] (JobQuartz_Worker-2) RandomValue39.0
+2023-10-22 01:20:58,647 INFO  [stdout] (JobQuartz_Worker-2) Message: 0
+
+2023-10-22 01:21:15,019 INFO  [stdout] (default task-6) /dashboard.xhtml
+
+2023-10-22 01:21:15,065 INFO  [stdout] (default task-6) /strategy.xhtml
+
+2023-10-22 01:21:19,440 INFO  [stdout] (default task-6) /strategy.xhtml
+
+2023-10-22 01:21:20,048 INFO  [stdout] (default task-6) /main.xhtml
+
+2023-10-22 01:21:27,747 INFO  [stdout] (default task-6) /main.xhtml
+
+2023-10-22 01:21:27,772 INFO  [stdout] (default task-6) /strategy.xhtml
+
+2023-10-22 01:21:29,394 INFO  [stdout] (default task-6) /strategy.xhtml
+
+2023-10-22 01:21:29,451 INFO  [stdout] (default task-6) /formStrategy.xhtml
+
+2023-10-22 01:21:31,767 INFO  [stdout] (default task-6) /formStrategy.xhtml
+
+2023-10-22 01:21:31,878 INFO  [stdout] (default task-6) /formStrategy.xhtml
+
+2023-10-22 01:21:33,432 INFO  [stdout] (default task-6) /formStrategy.xhtml
+
+2023-10-22 01:21:33,449 INFO  [stdout] (default task-6) /strategy.xhtml
+
+2023-10-22 01:21:46,947 INFO  [stdout] (default task-6) /strategy.xhtml
+
+2023-10-22 01:21:46,974 INFO  [stdout] (default task-6) /dashboard.xhtml
+
+2023-10-22 01:21:47,112 INFO  [stdout] (default task-6) C�digo de resposta: 200
+
+2023-10-22 01:21:47,158 INFO  [stdout] (default task-6) temperatura do solo obtida do sensor: {"tmpG":-14.94285679}
+
+2023-10-22 01:21:47,199 INFO  [stdout] (default task-6) C�digo de resposta: 200
+
+2023-10-22 01:21:47,266 INFO  [stdout] (default task-6) C�digo de resposta: 200
+
+2023-10-22 01:21:47,316 INFO  [stdout] (default task-6) temperatura ambiente obtida do sensor: {"umid":6}
+
+2023-10-22 01:23:58,642 INFO  [stdout] (JobQuartz_Worker-3) Executando...
+
+2023-10-22 01:23:58,650 INFO  [stdout] (JobQuartz_Worker-3) RandomValue30.0
+2023-10-22 01:23:58,650 INFO  [stdout] (JobQuartz_Worker-3) Message: 0
+
+2023-10-22 01:26:58,633 INFO  [stdout] (JobQuartz_Worker-4) Executando...
+
+2023-10-22 01:26:58,639 INFO  [stdout] (JobQuartz_Worker-4) RandomValue34.0
+2023-10-22 01:26:58,639 INFO  [stdout] (JobQuartz_Worker-4) Message: 1
+
+2023-10-22 01:29:58,635 INFO  [stdout] (JobQuartz_Worker-5) Executando...
+
+2023-10-22 01:29:58,641 INFO  [stdout] (JobQuartz_Worker-5) RandomValue39.0
+2023-10-22 01:29:58,641 INFO  [stdout] (JobQuartz_Worker-5) Message: 1
+
+2023-10-22 01:30:22,040 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-1) WFLYJCA0019: Stopped Driver service with driver-name = irrigatedLand-1.0-SNAPSHOT.war_org.postgresql.Driver_42_5
+2023-10-22 01:30:22,065 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 61) WFLYUT0022: Unregistered web context: '/irrigatedLand' from server 'default-server'
+2023-10-22 01:33:18,556 INFO  [org.jboss.modules] (main) JBoss Modules version 1.9.1.Final
+2023-10-22 01:33:19,566 INFO  [org.jboss.msc] (main) JBoss MSC version 1.4.11.Final
+2023-10-22 01:33:19,595 INFO  [org.jboss.threads] (main) JBoss Threads version 2.3.3.Final
+2023-10-22 01:33:19,856 INFO  [org.jboss.as] (MSC service thread 1-2) WFLYSRV0049: WildFly Full 18.0.0.Final (WildFly Core 10.0.0.Final) starting
+2023-10-22 01:33:19,859 DEBUG [org.jboss.as.config] (MSC service thread 1-2) Configured system properties:
+	awt.toolkit = sun.awt.windows.WToolkit
+	file.encoding = Cp1252
+	file.encoding.pkg = sun.io
+	file.separator = \
+	intellij.debug.agent = true
+	java.awt.graphicsenv = sun.awt.Win32GraphicsEnvironment
+	java.awt.printerjob = sun.awt.windows.WPrinterJob
+	java.class.path = C:\Users\Maicon\IdeaProjects\irrigatedLandCerto\wildfly-18.0.0.Final\jboss-modules.jar;C:\Users\Maicon\AppData\Local\JetBrains\IntelliJIdea2023.2\captureAgent\debugger-agent.jar
+	java.class.version = 52.0
+	java.endorsed.dirs = C:\Program Files\Java\jdk-1.8\jre\lib\endorsed
+	java.ext.dirs = C:\Program Files\Java\jdk-1.8\jre\lib\ext;C:\Windows\Sun\Java\lib\ext
+	java.home = C:\Program Files\Java\jdk-1.8\jre
+	java.io.tmpdir = C:\Users\Maicon\AppData\Local\Temp\
+	java.library.path = C:\Program Files\Java\jdk-1.8\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;%JAVA_HOME%\bin;%M2_HOME%\bin;C:\Program Files\maven\apache-maven-3.9.3\bin;C:\Program Files\Git\cmd;C:\Users\Maicon\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\IntelliJ IDEA 2023.2.2\bin;;C:\Program Files\maven\apache-maven-3.9.3\bin;;C:\Users\Maicon\AppData\Local\Programs\Microsoft VS Code\bin;.
+	java.runtime.name = Java(TM) SE Runtime Environment
+	java.runtime.version = 1.8.0_371-b11
+	java.specification.maintenance.version = 4
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 1.8
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = http://java.oracle.com/
+	java.vendor.url.bug = http://bugreport.sun.com/bugreport/
+	java.version = 1.8.0_371
+	java.vm.info = mixed mode
+	java.vm.name = Java HotSpot(TM) 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 1.8
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 25.371-b11
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	jboss.home.dir = C:\Users\Maicon\IdeaProjects\irrigatedLandCerto\wildfly-18.0.0.Final
+	jboss.host.name = desktop-es9jb79
+	jboss.modules.dir = C:\Users\Maicon\IdeaProjects\irrigatedLandCerto\wildfly-18.0.0.Final\modules
+	jboss.modules.system.pkgs = com.intellij.rt
+	jboss.node.name = desktop-es9jb79
+	jboss.qualified.host.name = desktop-es9jb79
+	jboss.server.base.dir = C:\Users\Maicon\IdeaProjects\irrigatedLandCerto\wildfly-18.0.0.Final\standalone
+	jboss.server.config.dir = C:\Users\Maicon\IdeaProjects\irrigatedLandCerto\wildfly-18.0.0.Final\standalone\configuration
+	jboss.server.data.dir = C:\Users\Maicon\IdeaProjects\irrigatedLandCerto\wildfly-18.0.0.Final\standalone\data
+	jboss.server.deploy.dir = C:\Users\Maicon\IdeaProjects\irrigatedLandCerto\wildfly-18.0.0.Final\standalone\data\content
+	jboss.server.log.dir = C:\Users\Maicon\IdeaProjects\irrigatedLandCerto\wildfly-18.0.0.Final\standalone\log
+	jboss.server.name = desktop-es9jb79
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = C:\Users\Maicon\IdeaProjects\irrigatedLandCerto\wildfly-18.0.0.Final\standalone\tmp
+	line.separator = 
+
+	logging.configuration = file:C:\Users\Maicon\IdeaProjects\irrigatedLandCerto\wildfly-18.0.0.Final\standalone\configuration/logging.properties
+	module.path = C:\Users\Maicon\IdeaProjects\irrigatedLandCerto\wildfly-18.0.0.Final\modules
+	org.jboss.boot.log.file = C:\Users\Maicon\IdeaProjects\irrigatedLandCerto\wildfly-18.0.0.Final\standalone\log\server.log
+	org.jboss.resolver.warning = true
+	os.arch = amd64
+	os.name = Windows 10
+	os.version = 10.0
+	path.separator = ;
+	program.name = standalone.bat
+	sun.arch.data.model = 64
+	sun.boot.class.path = C:\Program Files\Java\jdk-1.8\jre\lib\resources.jar;C:\Program Files\Java\jdk-1.8\jre\lib\rt.jar;C:\Program Files\Java\jdk-1.8\jre\lib\jsse.jar;C:\Program Files\Java\jdk-1.8\jre\lib\jce.jar;C:\Program Files\Java\jdk-1.8\jre\lib\charsets.jar;C:\Program Files\Java\jdk-1.8\jre\lib\jfr.jar;C:\Program Files\Java\jdk-1.8\jre\classes;C:\Users\Maicon\AppData\Local\JetBrains\IntelliJIdea2023.2\captureAgent\debugger-agent.jar
+	sun.boot.library.path = C:\Program Files\Java\jdk-1.8\jre\bin
+	sun.cpu.endian = little
+	sun.cpu.isalist = amd64
+	sun.desktop = windows
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = C:\Users\Maicon\IdeaProjects\irrigatedLandCerto\wildfly-18.0.0.Final\jboss-modules.jar -mp C:\Users\Maicon\IdeaProjects\irrigatedLandCerto\wildfly-18.0.0.Final\modules org.jboss.as.standalone -Djboss.home.dir=C:\Users\Maicon\IdeaProjects\irrigatedLandCerto\wildfly-18.0.0.Final
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = Cp1252
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = 
+	user.country = BR
+	user.dir = C:\Users\Maicon\IdeaProjects\irrigatedLandCerto\wildfly-18.0.0.Final\bin
+	user.home = C:\Users\Maicon
+	user.language = pt
+	user.name = Maicon
+	user.script = 
+	user.timezone = America/Sao_Paulo
+	user.variant = 
+2023-10-22 01:33:19,860 DEBUG [org.jboss.as.config] (MSC service thread 1-2) VM Arguments: -Dprogram.name=standalone.bat -agentlib:jdwp=transport=dt_socket,address=127.0.0.1:53392,suspend=y,server=n -javaagent:C:\Users\Maicon\AppData\Local\JetBrains\IntelliJIdea2023.2\captureAgent\debugger-agent.jar -Dorg.jboss.boot.log.file=C:\Users\Maicon\IdeaProjects\irrigatedLandCerto\wildfly-18.0.0.Final\standalone\log\server.log -Dlogging.configuration=file:C:\Users\Maicon\IdeaProjects\irrigatedLandCerto\wildfly-18.0.0.Final\standalone\configuration/logging.properties 
+2023-10-22 01:33:21,781 INFO  [org.wildfly.security] (ServerService Thread Pool -- 27) ELY00001: WildFly Elytron version 1.10.3.Final
+2023-10-22 01:33:22,793 INFO  [org.jboss.as.controller.management-deprecated] (Controller Boot Thread) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/core-service=management/management-interface=http-interface' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2023-10-22 01:33:22,836 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 17) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/subsystem=undertow/server=default-server/https-listener=https' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2023-10-22 01:33:22,971 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creating http management service using socket-binding (management-http)
+2023-10-22 01:33:23,084 INFO  [org.xnio] (MSC service thread 1-6) XNIO version 3.7.3.Final
+2023-10-22 01:33:23,101 INFO  [org.xnio.nio] (MSC service thread 1-6) XNIO NIO Implementation Version 3.7.3.Final
+2023-10-22 01:33:23,177 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 51) WFLYCLINF0001: Activating Infinispan subsystem.
+2023-10-22 01:33:23,197 INFO  [org.wildfly.extension.microprofile.opentracing] (ServerService Thread Pool -- 63) WFLYTRACEXT0001: Activating MicroProfile OpenTracing Subsystem
+2023-10-22 01:33:23,191 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 72) WFLYTX0013: The node-identifier attribute on the /subsystem=transactions is set to the default value. This is a danger for environments running multiple servers. Please make sure the attribute value is unique.
+2023-10-22 01:33:23,241 INFO  [org.jboss.as.jaxrs] (ServerService Thread Pool -- 53) WFLYRS0016: RESTEasy version 3.9.0.Final
+2023-10-22 01:33:23,251 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 64) WFLYNAM0001: Activating Naming Subsystem
+2023-10-22 01:33:23,257 INFO  [org.wildfly.extension.microprofile.health.smallrye] (ServerService Thread Pool -- 61) WFLYHEALTH0001: Activating Eclipse MicroProfile Health Subsystem
+2023-10-22 01:33:23,262 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 70) WFLYSEC0002: Activating Security Subsystem
+2023-10-22 01:33:23,267 INFO  [org.wildfly.extension.microprofile.config.smallrye._private] (ServerService Thread Pool -- 60) WFLYCONF0001: Activating WildFly MicroProfile Config Subsystem
+2023-10-22 01:33:23,266 INFO  [org.jboss.as.security] (MSC service thread 1-7) WFLYSEC0001: Current PicketBox version=5.0.3.Final
+2023-10-22 01:33:23,267 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 74) WFLYWS0002: Activating WebServices Extension
+2023-10-22 01:33:23,308 INFO  [org.jboss.as.connector] (MSC service thread 1-8) WFLYJCA0009: Starting JCA Subsystem (WildFly/IronJacamar 1.4.17.Final)
+2023-10-22 01:33:23,356 INFO  [org.wildfly.extension.microprofile.metrics.smallrye] (ServerService Thread Pool -- 62) WFLYMETRICS0001: Activating Eclipse MicroProfile Metrics Subsystem
+2023-10-22 01:33:23,394 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) WFLYUT0003: Undertow 2.0.26.Final starting
+2023-10-22 01:33:23,420 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 58) WFLYJSF0007: Activated the following JSF Implementations: [main]
+2023-10-22 01:33:23,645 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 43) WFLYJCA0005: Deploying non-JDBC-compliant driver class org.postgresql.Driver (version 42.5)
+2023-10-22 01:33:23,718 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-5) WFLYJCA0018: Started Driver service with driver-name = h2
+2023-10-22 01:33:23,814 INFO  [org.jboss.as.naming] (MSC service thread 1-8) WFLYNAM0003: Starting Naming Service
+2023-10-22 01:33:23,846 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-4) WFLYMAIL0001: Bound mail session [java:jboss/mail/Default]
+2023-10-22 01:33:23,876 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 73) WFLYUT0014: Creating file handler for path 'C:\Users\Maicon\IdeaProjects\irrigatedLandCerto\wildfly-18.0.0.Final/welcome-content' with options [directory-listing: 'false', follow-symlink: 'false', case-sensitive: 'true', safe-symlink-paths: '[]']
+2023-10-22 01:33:24,310 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-4) WFLYJCA0098: Bound non-transactional data source: java:jboss/datasources/ExampleDS
+2023-10-22 01:33:24,873 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 52) WFLYIO001: Worker 'default' has auto-configured to 8 core threads with 64 task threads based on your 4 available processors
+2023-10-22 01:33:24,879 INFO  [org.jboss.as.ejb3] (MSC service thread 1-8) WFLYEJB0481: Strict pool slsb-strict-max-pool is using a max instance size of 64 (per class), which is derived from thread worker pool sizing.
+2023-10-22 01:33:24,879 INFO  [org.jboss.as.ejb3] (MSC service thread 1-1) WFLYEJB0482: Strict pool mdb-strict-max-pool is using a max instance size of 16 (per class), which is derived from the number of CPUs on this host.
+2023-10-22 01:33:25,195 INFO  [org.jboss.as.patching] (MSC service thread 1-5) WFLYPAT0050: WildFly Full cumulative patch ID is: base, one-off patches include: none
+2023-10-22 01:33:25,207 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0012: Started server default-server.
+2023-10-22 01:33:25,214 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0018: Host default-host starting
+2023-10-22 01:33:25,237 INFO  [org.jboss.remoting] (MSC service thread 1-7) JBoss Remoting version 5.0.15.Final
+2023-10-22 01:33:25,240 WARN  [org.jboss.as.domain.management.security] (MSC service thread 1-8) WFLYDM0111: Keystore C:\Users\Maicon\IdeaProjects\irrigatedLandCerto\wildfly-18.0.0.Final\standalone\configuration\application.keystore not found, it will be auto generated on first use with a self signed certificate for host localhost
+2023-10-22 01:33:25,264 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-2) WFLYDS0013: Started FileSystemDeploymentService for directory C:\Users\Maicon\IdeaProjects\irrigatedLandCerto\wildfly-18.0.0.Final\standalone\deployments
+2023-10-22 01:33:25,346 INFO  [org.jboss.as.ejb3] (MSC service thread 1-3) WFLYEJB0493: EJB subsystem suspension complete
+2023-10-22 01:33:25,358 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) WFLYUT0006: Undertow HTTP listener default listening on [0:0:0:0:0:0:0:0]:8081
+2023-10-22 01:33:25,978 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0006: Undertow HTTPS listener https listening on [0:0:0:0:0:0:0:0]:8441
+2023-10-22 01:33:26,115 INFO  [org.jboss.ws.common.management] (MSC service thread 1-2) JBWS022052: Starting JBossWS 5.3.0.Final (Apache CXF 3.3.3) 
+2023-10-22 01:33:26,473 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0212: Resuming server
+2023-10-22 01:33:26,481 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://127.0.0.1:9991/management
+2023-10-22 01:33:26,481 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Admin console listening on http://127.0.0.1:9991
+2023-10-22 01:33:26,482 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Full 18.0.0.Final (WildFly Core 10.0.0.Final) started in 9048ms - Started 315 of 577 services (369 services are lazy, passive or on-demand)
+2023-10-22 01:33:27,808 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0027: Starting deployment of "irrigatedLand-1.0-SNAPSHOT.war" (runtime-name: "irrigatedLand-1.0-SNAPSHOT.war")
+2023-10-22 01:33:35,034 WARN  [org.jboss.weld.deployer] (MSC service thread 1-6) WFLYWELD0018: Found both WEB-INF/beans.xml and WEB-INF/classes/META-INF/beans.xml. It is not portable to use both locations at the same time. Weld is going to use the former location for this deployment.
+2023-10-22 01:33:35,088 INFO  [org.jboss.as.jpa] (MSC service thread 1-6) WFLYJPA0002: Read persistence.xml for irrigatedLand
+2023-10-22 01:33:35,565 WARN  [org.jboss.as.dependency.private] (MSC service thread 1-8) WFLYSRV0018: Deployment "deployment.irrigatedLand-1.0-SNAPSHOT.war" is using a private module ("org.jboss.resteasy.resteasy-yaml-provider") which may be changed or removed in future versions without notice.
+2023-10-22 01:33:36,812 INFO  [org.jboss.weld.deployer] (MSC service thread 1-3) WFLYWELD0003: Processing weld deployment irrigatedLand-1.0-SNAPSHOT.war
+2023-10-22 01:33:36,997 INFO  [org.infinispan.factories.GlobalComponentRegistry] (MSC service thread 1-8) ISPN000128: Infinispan version: Infinispan 'Infinity Minus ONE +2' 9.4.16.Final
+2023-10-22 01:33:37,074 INFO  [org.hibernate.validator.internal.util.Version] (MSC service thread 1-3) HV000001: Hibernate Validator 6.0.17.Final
+2023-10-22 01:33:37,411 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-3) WFLYEJB0473: JNDI bindings for session bean named 'ProductDAO' in deployment unit 'deployment "irrigatedLand-1.0-SNAPSHOT.war"' are as follows:
+
+	java:global/irrigatedLand-1.0-SNAPSHOT/ProductDAO!Farming.Bean.ProductDAO
+	java:app/irrigatedLand-1.0-SNAPSHOT/ProductDAO!Farming.Bean.ProductDAO
+	java:module/ProductDAO!Farming.Bean.ProductDAO
+	ejb:/irrigatedLand-1.0-SNAPSHOT/ProductDAO!Farming.Bean.ProductDAO
+	java:global/irrigatedLand-1.0-SNAPSHOT/ProductDAO
+	java:app/irrigatedLand-1.0-SNAPSHOT/ProductDAO
+	java:module/ProductDAO
+
+2023-10-22 01:33:37,412 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-3) WFLYEJB0473: JNDI bindings for session bean named 'ListUserDAO' in deployment unit 'deployment "irrigatedLand-1.0-SNAPSHOT.war"' are as follows:
+
+	java:global/irrigatedLand-1.0-SNAPSHOT/ListUserDAO!User.Service.ListUserDAO
+	java:app/irrigatedLand-1.0-SNAPSHOT/ListUserDAO!User.Service.ListUserDAO
+	java:module/ListUserDAO!User.Service.ListUserDAO
+	ejb:/irrigatedLand-1.0-SNAPSHOT/ListUserDAO!User.Service.ListUserDAO
+	java:global/irrigatedLand-1.0-SNAPSHOT/ListUserDAO
+	java:app/irrigatedLand-1.0-SNAPSHOT/ListUserDAO
+	java:module/ListUserDAO
+
+2023-10-22 01:33:37,412 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-3) WFLYEJB0473: JNDI bindings for session bean named 'ListUserServiceBean' in deployment unit 'deployment "irrigatedLand-1.0-SNAPSHOT.war"' are as follows:
+
+	java:global/irrigatedLand-1.0-SNAPSHOT/ListUserServiceBean!User.Service.ListUserService
+	java:app/irrigatedLand-1.0-SNAPSHOT/ListUserServiceBean!User.Service.ListUserService
+	java:module/ListUserServiceBean!User.Service.ListUserService
+	ejb:/irrigatedLand-1.0-SNAPSHOT/ListUserServiceBean!User.Service.ListUserService
+	java:global/irrigatedLand-1.0-SNAPSHOT/ListUserServiceBean
+	java:app/irrigatedLand-1.0-SNAPSHOT/ListUserServiceBean
+	java:module/ListUserServiceBean
+
+2023-10-22 01:33:37,415 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-3) WFLYEJB0473: JNDI bindings for session bean named 'ProductServiceBean' in deployment unit 'deployment "irrigatedLand-1.0-SNAPSHOT.war"' are as follows:
+
+	java:global/irrigatedLand-1.0-SNAPSHOT/ProductServiceBean!Farming.Interfaces.ProductServiceRemote
+	java:app/irrigatedLand-1.0-SNAPSHOT/ProductServiceBean!Farming.Interfaces.ProductServiceRemote
+	java:module/ProductServiceBean!Farming.Interfaces.ProductServiceRemote
+	java:jboss/exported/irrigatedLand-1.0-SNAPSHOT/ProductServiceBean!Farming.Interfaces.ProductServiceRemote
+	ejb:/irrigatedLand-1.0-SNAPSHOT/ProductServiceBean!Farming.Interfaces.ProductServiceRemote
+	java:global/irrigatedLand-1.0-SNAPSHOT/ProductServiceBean!Farming.Interfaces.ProductService
+	java:app/irrigatedLand-1.0-SNAPSHOT/ProductServiceBean!Farming.Interfaces.ProductService
+	java:module/ProductServiceBean!Farming.Interfaces.ProductService
+	ejb:/irrigatedLand-1.0-SNAPSHOT/ProductServiceBean!Farming.Interfaces.ProductService
+
+2023-10-22 01:33:37,415 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-3) WFLYEJB0473: JNDI bindings for session bean named 'TopicServiceBean' in deployment unit 'deployment "irrigatedLand-1.0-SNAPSHOT.war"' are as follows:
+
+	java:global/irrigatedLand-1.0-SNAPSHOT/TopicServiceBean!CommunicationMQTT.TopicRemoteService
+	java:app/irrigatedLand-1.0-SNAPSHOT/TopicServiceBean!CommunicationMQTT.TopicRemoteService
+	java:module/TopicServiceBean!CommunicationMQTT.TopicRemoteService
+	java:jboss/exported/irrigatedLand-1.0-SNAPSHOT/TopicServiceBean!CommunicationMQTT.TopicRemoteService
+	ejb:/irrigatedLand-1.0-SNAPSHOT/TopicServiceBean!CommunicationMQTT.TopicRemoteService
+	java:global/irrigatedLand-1.0-SNAPSHOT/TopicServiceBean!CommunicationMQTT.TopicService
+	java:app/irrigatedLand-1.0-SNAPSHOT/TopicServiceBean!CommunicationMQTT.TopicService
+	java:module/TopicServiceBean!CommunicationMQTT.TopicService
+	ejb:/irrigatedLand-1.0-SNAPSHOT/TopicServiceBean!CommunicationMQTT.TopicService
+
+2023-10-22 01:33:37,416 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-3) WFLYEJB0473: JNDI bindings for session bean named 'GetUmidityService' in deployment unit 'deployment "irrigatedLand-1.0-SNAPSHOT.war"' are as follows:
+
+	java:global/irrigatedLand-1.0-SNAPSHOT/GetUmidityService!Dashboard.Service.GetUmidityRemoteService
+	java:app/irrigatedLand-1.0-SNAPSHOT/GetUmidityService!Dashboard.Service.GetUmidityRemoteService
+	java:module/GetUmidityService!Dashboard.Service.GetUmidityRemoteService
+	java:jboss/exported/irrigatedLand-1.0-SNAPSHOT/GetUmidityService!Dashboard.Service.GetUmidityRemoteService
+	ejb:/irrigatedLand-1.0-SNAPSHOT/GetUmidityService!Dashboard.Service.GetUmidityRemoteService
+	java:global/irrigatedLand-1.0-SNAPSHOT/GetUmidityService!Dashboard.Service.GetUmidity
+	java:app/irrigatedLand-1.0-SNAPSHOT/GetUmidityService!Dashboard.Service.GetUmidity
+	java:module/GetUmidityService!Dashboard.Service.GetUmidity
+	ejb:/irrigatedLand-1.0-SNAPSHOT/GetUmidityService!Dashboard.Service.GetUmidity
+
+2023-10-22 01:33:37,416 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-3) WFLYEJB0473: JNDI bindings for session bean named 'StrategyDAO' in deployment unit 'deployment "irrigatedLand-1.0-SNAPSHOT.war"' are as follows:
+
+	java:global/irrigatedLand-1.0-SNAPSHOT/StrategyDAO!Strategy.Bean.StrategyDAO
+	java:app/irrigatedLand-1.0-SNAPSHOT/StrategyDAO!Strategy.Bean.StrategyDAO
+	java:module/StrategyDAO!Strategy.Bean.StrategyDAO
+	ejb:/irrigatedLand-1.0-SNAPSHOT/StrategyDAO!Strategy.Bean.StrategyDAO
+	java:global/irrigatedLand-1.0-SNAPSHOT/StrategyDAO
+	java:app/irrigatedLand-1.0-SNAPSHOT/StrategyDAO
+	java:module/StrategyDAO
+
+2023-10-22 01:33:37,416 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-3) WFLYEJB0473: JNDI bindings for session bean named 'StrategyServiceBean' in deployment unit 'deployment "irrigatedLand-1.0-SNAPSHOT.war"' are as follows:
+
+	java:global/irrigatedLand-1.0-SNAPSHOT/StrategyServiceBean!Strategy.Interfaces.StrategyRemoteService
+	java:app/irrigatedLand-1.0-SNAPSHOT/StrategyServiceBean!Strategy.Interfaces.StrategyRemoteService
+	java:module/StrategyServiceBean!Strategy.Interfaces.StrategyRemoteService
+	java:jboss/exported/irrigatedLand-1.0-SNAPSHOT/StrategyServiceBean!Strategy.Interfaces.StrategyRemoteService
+	ejb:/irrigatedLand-1.0-SNAPSHOT/StrategyServiceBean!Strategy.Interfaces.StrategyRemoteService
+	java:global/irrigatedLand-1.0-SNAPSHOT/StrategyServiceBean!Strategy.Interfaces.StrategyService
+	java:app/irrigatedLand-1.0-SNAPSHOT/StrategyServiceBean!Strategy.Interfaces.StrategyService
+	java:module/StrategyServiceBean!Strategy.Interfaces.StrategyService
+	ejb:/irrigatedLand-1.0-SNAPSHOT/StrategyServiceBean!Strategy.Interfaces.StrategyService
+
+2023-10-22 01:33:37,417 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-3) WFLYEJB0473: JNDI bindings for session bean named 'EndPoint' in deployment unit 'deployment "irrigatedLand-1.0-SNAPSHOT.war"' are as follows:
+
+	java:global/irrigatedLand-1.0-SNAPSHOT/EndPoint!EndPoints.EndPoint
+	java:app/irrigatedLand-1.0-SNAPSHOT/EndPoint!EndPoints.EndPoint
+	java:module/EndPoint!EndPoints.EndPoint
+	ejb:/irrigatedLand-1.0-SNAPSHOT/EndPoint!EndPoints.EndPoint
+	java:global/irrigatedLand-1.0-SNAPSHOT/EndPoint
+	java:app/irrigatedLand-1.0-SNAPSHOT/EndPoint
+	java:module/EndPoint
+
+2023-10-22 01:33:37,418 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-3) WFLYEJB0473: JNDI bindings for session bean named 'LoginServiceBean' in deployment unit 'deployment "irrigatedLand-1.0-SNAPSHOT.war"' are as follows:
+
+	java:global/irrigatedLand-1.0-SNAPSHOT/LoginServiceBean!Mobile.Service.LoginServiceBean
+	java:app/irrigatedLand-1.0-SNAPSHOT/LoginServiceBean!Mobile.Service.LoginServiceBean
+	java:module/LoginServiceBean!Mobile.Service.LoginServiceBean
+	ejb:/irrigatedLand-1.0-SNAPSHOT/LoginServiceBean!Mobile.Service.LoginServiceBean
+	java:global/irrigatedLand-1.0-SNAPSHOT/LoginServiceBean
+	java:app/irrigatedLand-1.0-SNAPSHOT/LoginServiceBean
+	java:module/LoginServiceBean
+
+2023-10-22 01:33:37,418 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-3) WFLYEJB0473: JNDI bindings for session bean named 'JobScheduler' in deployment unit 'deployment "irrigatedLand-1.0-SNAPSHOT.war"' are as follows:
+
+	java:global/irrigatedLand-1.0-SNAPSHOT/JobScheduler!Job.JobScheduler
+	java:app/irrigatedLand-1.0-SNAPSHOT/JobScheduler!Job.JobScheduler
+	java:module/JobScheduler!Job.JobScheduler
+	ejb:/irrigatedLand-1.0-SNAPSHOT/JobScheduler!Job.JobScheduler
+	java:global/irrigatedLand-1.0-SNAPSHOT/JobScheduler
+	java:app/irrigatedLand-1.0-SNAPSHOT/JobScheduler
+	java:module/JobScheduler
+
+2023-10-22 01:33:37,418 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-3) WFLYEJB0473: JNDI bindings for session bean named 'GetTemperatureService' in deployment unit 'deployment "irrigatedLand-1.0-SNAPSHOT.war"' are as follows:
+
+	java:global/irrigatedLand-1.0-SNAPSHOT/GetTemperatureService!Dashboard.Service.GetTemperature
+	java:app/irrigatedLand-1.0-SNAPSHOT/GetTemperatureService!Dashboard.Service.GetTemperature
+	java:module/GetTemperatureService!Dashboard.Service.GetTemperature
+	ejb:/irrigatedLand-1.0-SNAPSHOT/GetTemperatureService!Dashboard.Service.GetTemperature
+	java:global/irrigatedLand-1.0-SNAPSHOT/GetTemperatureService
+	java:app/irrigatedLand-1.0-SNAPSHOT/GetTemperatureService
+	java:module/GetTemperatureService
+
+2023-10-22 01:33:38,235 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 19) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'irrigatedLand-1.0-SNAPSHOT.war#irrigatedLand'
+2023-10-22 01:33:38,307 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 19) HHH000204: Processing PersistenceUnitInfo [
+	name: irrigatedLand
+	...]
+2023-10-22 01:33:39,226 INFO  [org.hibernate.Version] (ServerService Thread Pool -- 19) HHH000412: Hibernate Core {5.3.12.Final}
+2023-10-22 01:33:39,229 INFO  [org.hibernate.cfg.Environment] (ServerService Thread Pool -- 19) HHH000206: hibernate.properties not found
+2023-10-22 01:33:39,303 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 4) WFLYCLINF0002: Started client-mappings cache from ejb container
+2023-10-22 01:33:39,330 WARN  [org.jboss.as.jaxrs] (MSC service thread 1-2) WFLYRS0018: Explicit usage of Jackson annotation in a JAX-RS deployment; the system will disable JSON-B processing for the current deployment. Consider setting the 'resteasy.preferJacksonOverJsonB' property to 'false' to restore JSON-B.
+2023-10-22 01:33:39,936 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-2) WFLYJCA0005: Deploying non-JDBC-compliant driver class org.postgresql.Driver (version 42.5)
+2023-10-22 01:33:39,978 INFO  [org.jboss.weld.Version] (MSC service thread 1-2) WELD-000900: 3.1.2 (Final)
+2023-10-22 01:33:40,150 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-8) WFLYJCA0018: Started Driver service with driver-name = irrigatedLand-1.0-SNAPSHOT.war_org.postgresql.Driver_42_5
+2023-10-22 01:33:40,449 INFO  [org.hibernate.annotations.common.Version] (ServerService Thread Pool -- 19) HCANN000001: Hibernate Commons Annotations {5.0.5.Final}
+2023-10-22 01:33:40,786 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 19) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'irrigatedLand-1.0-SNAPSHOT.war#irrigatedLand'
+2023-10-22 01:33:41,157 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 19) HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+2023-10-22 01:33:41,277 INFO  [org.hibernate.engine.jdbc.env.internal.LobCreatorBuilderImpl] (ServerService Thread Pool -- 19) HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2023-10-22 01:33:41,289 INFO  [org.hibernate.type.BasicTypeRegistry] (ServerService Thread Pool -- 19) HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@c2fce12
+2023-10-22 01:33:41,298 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 19) Envers integration enabled? : true
+2023-10-22 01:33:42,771 WARN  [org.jboss.weld.Bootstrap] (MSC service thread 1-8) WELD-000146: BeforeBeanDiscovery.addAnnotatedType(AnnotatedType<?>) used for class com.sun.faces.flow.FlowDiscoveryCDIHelper is deprecated from CDI 1.1!
+2023-10-22 01:33:42,777 INFO  [io.smallrye.metrics] (MSC service thread 1-8) MicroProfile: Metrics activated
+2023-10-22 01:33:43,497 WARN  [org.jboss.weld.Validator] (MSC service thread 1-8) WELD-001471: Interceptor method init defined on class Dashboard.Bean.DashboardBean is not defined according to the specification. It should not throw java.io.IOException, which is a checked exception.
+	at Dashboard.Bean.DashboardBean.init(DashboardBean.java:0)
+  StackTrace
+2023-10-22 01:33:43,498 WARN  [org.jboss.weld.Validator] (MSC service thread 1-8) WELD-001471: Interceptor method init defined on class Dashboard.Bean.DashboardBean is not defined according to the specification. It should not throw org.quartz.SchedulerException, which is a checked exception.
+	at Dashboard.Bean.DashboardBean.init(DashboardBean.java:0)
+  StackTrace
+2023-10-22 01:33:44,108 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (ServerService Thread Pool -- 19) Inicializando Mojarra 2.3.9.SP03 para o contexto '/irrigatedLand'
+2023-10-22 01:33:49,349 INFO  [org.primefaces.webapp.PostConstructApplicationEventListener] (ServerService Thread Pool -- 19) Running on PrimeFaces 12.0.0
+2023-10-22 01:33:50,049 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 19) RESTEASY002225: Deploying javax.ws.rs.core.Application: class Mobile.RestApplication
+2023-10-22 01:33:50,050 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 19) RESTEASY002200: Adding class resource Mobile.Login from Application class Mobile.RestApplication
+2023-10-22 01:33:50,050 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 19) RESTEASY002200: Adding class resource Mobile.JobMobile from Application class Mobile.RestApplication
+2023-10-22 01:33:50,155 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 19) WFLYUT0021: Registered web context: '/irrigatedLand' for server 'default-server'
+2023-10-22 01:33:50,238 INFO  [org.jboss.as.server] (management-handler-thread - 1) WFLYSRV0010: Deployed "irrigatedLand-1.0-SNAPSHOT.war" (runtime-name : "irrigatedLand-1.0-SNAPSHOT.war")
+2023-10-22 01:33:57,724 INFO  [stdout] (default task-1) /login.xhtml
+
+2023-10-22 01:33:58,051 INFO  [org.quartz.impl.StdSchedulerFactory] (default task-1) Using default implementation for ThreadExecutor
+2023-10-22 01:33:58,082 INFO  [org.quartz.core.SchedulerSignalerImpl] (default task-1) Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2023-10-22 01:33:58,082 INFO  [org.quartz.core.QuartzScheduler] (default task-1) Quartz Scheduler v.2.3.2 created.
+2023-10-22 01:33:58,083 INFO  [org.quartz.simpl.RAMJobStore] (default task-1) RAMJobStore initialized.
+2023-10-22 01:33:58,085 INFO  [org.quartz.core.QuartzScheduler] (default task-1) Scheduler meta-data: Quartz Scheduler (v2.3.2) 'JobQuartz' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 5 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2023-10-22 01:33:58,085 INFO  [org.quartz.impl.StdSchedulerFactory] (default task-1) Quartz scheduler 'JobQuartz' initialized from default resource file in Quartz package: 'quartz.properties'
+2023-10-22 01:33:58,088 INFO  [org.quartz.impl.StdSchedulerFactory] (default task-1) Quartz scheduler version: 2.3.2
+2023-10-22 01:34:03,418 INFO  [stdout] (default task-1) /login.xhtml
+
+2023-10-22 01:34:03,642 INFO  [org.hibernate.hql.internal.QueryTranslatorFactoryInitiator] (default task-1) HHH000397: Using ASTQueryTranslatorFactory
+2023-10-22 01:34:03,894 INFO  [stdout] (default task-1) /dashboard.xhtml
+
+2023-10-22 01:34:03,994 INFO  [org.quartz.core.QuartzScheduler] (default task-1) Scheduler JobQuartz_$_NON_CLUSTERED started.
+2023-10-22 01:34:04,011 INFO  [org.wildfly.naming] (JobQuartz_Worker-1) WildFly Naming version 1.0.11.Final
+2023-10-22 01:34:04,040 INFO  [org.jboss.ejb.client] (JobQuartz_Worker-1) JBoss EJB Client version 4.0.23.Final
+2023-10-22 01:34:04,060 INFO  [stdout] (JobQuartz_Worker-1) Executando...
+
+2023-10-22 01:34:04,206 INFO  [stdout] (default task-1) C�digo de resposta: 200
+
+2023-10-22 01:34:04,258 INFO  [stdout] (default task-1) temperatura do solo obtida do sensor: {"tmpG":-14.94285679}
+
+2023-10-22 01:34:04,354 INFO  [stdout] (default task-1) C�digo de resposta: 200
+
+2023-10-22 01:34:04,425 INFO  [stdout] (default task-1) C�digo de resposta: 200
+
+2023-10-22 01:34:04,470 INFO  [stdout] (default task-1) temperatura ambiente obtida do sensor: {"umid":6}
+
+2023-10-22 01:34:04,960 INFO  [stdout] (JobQuartz_Worker-1) RandomValue35.0
+2023-10-22 01:34:04,960 INFO  [stdout] (JobQuartz_Worker-1) Message: 1
+
+2023-10-22 01:37:04,014 INFO  [stdout] (JobQuartz_Worker-2) Executando...
+
+2023-10-22 01:37:04,024 INFO  [stdout] (JobQuartz_Worker-2) RandomValue32.0
+2023-10-22 01:37:04,025 INFO  [stdout] (JobQuartz_Worker-2) Message: 0
+
+2023-10-22 01:37:14,217 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-5) WFLYJCA0019: Stopped Driver service with driver-name = irrigatedLand-1.0-SNAPSHOT.war_org.postgresql.Driver_42_5
+2023-10-22 01:37:14,231 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 19) WFLYUT0022: Unregistered web context: '/irrigatedLand' from server 'default-server'
+2023-10-22 01:37:14,301 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 128) WFLYJPA0011: Stopping Persistence Unit (phase 2 of 2) Service 'irrigatedLand-1.0-SNAPSHOT.war#irrigatedLand'
+2023-10-22 01:37:14,304 INFO  [org.hibernate.orm.beans] (ServerService Thread Pool -- 128) HHH10005004: Stopping BeanContainer : org.hibernate.resource.beans.container.internal.CdiBeanContainerExtendedAccessImpl@54716bce
+2023-10-22 01:37:14,315 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 128) WFLYJPA0011: Stopping Persistence Unit (phase 1 of 2) Service 'irrigatedLand-1.0-SNAPSHOT.war#irrigatedLand'

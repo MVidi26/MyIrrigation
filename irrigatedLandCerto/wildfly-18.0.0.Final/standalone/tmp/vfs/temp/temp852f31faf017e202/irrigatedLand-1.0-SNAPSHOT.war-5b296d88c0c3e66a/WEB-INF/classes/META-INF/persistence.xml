@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence xmlns="http://java.sun.com/xml/ns/persistence" version="1.0">
+  <persistence-unit name="irrigatedLand" transaction-type="JTA">
+    <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
+    <jta-data-source>java:jboss/datasources/ExampleDS</jta-data-source>
+
+    <class>Farming.Model.Farming</class>
+    <class>Strategy.Model.Strategy</class>
+    <class>User.Model.User</class>
+    <class>Paramiters</class>
+
+    <properties>
+        <!-- Propriedades JDBC -->
+        <property name="javax.persistence.jdbc.driver" value="org.postgresql.Driver" />
+        <property name="javax.persistence.jdbc.url" value="jdbc:postgresql://localhost:5432/irrigatedLand" />
+        <property name="javax.persistence.jdbc.user" value="postgres" />
+        <property name="javax.persistence.jdbc.password" value="1234" />
+        <!-- Configurações específicas do Hibernate -->
+        <property name="hibernate.dialect" value="org.hibernate.dialect.PostgreSQL95Dialect" />
+        <property name="hibernate.show_sql" value="false" />
+        <property name="hibernate.format_sql" value="true" />
+        <property name="hibernate.hbm2ddl.auto" value="update"/>
+    </properties>
+  </persistence-unit>
+</persistence>

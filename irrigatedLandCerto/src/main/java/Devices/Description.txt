@@ -1,0 +1,2 @@
+Model Folder:
+- Contains the entity of devices and pivots

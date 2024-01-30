@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:f="http://xmlns.jcp.org/jsf/core"
+      xmlns:p="http://primefaces.org/ui">
+
+<ui:composition template="_template.xhtml">
+    <ui:define name="conteudo">
+        <h:panelGrid style="background-color: black; border-radius: 8px; color: black;">
+            <h:form id="formStrategyTable">
+                <p:dataTable value="#{strategyBean.list}" var="list" id="strategyTable" emptyMessage="Nenhum Dado"
+                             scrollable="false" scrollHeight="250" paginator="true" rows="10"
+                             style="border-color: black; text-align: center;">
+                    <f:facet name="header">Estratégia</f:facet>
+
+                    <p:column headerText="Nome" sortBy="#{list.strategyName}" filterBy="#{list.strategyName}"
+                              filterMatchMode="contains"
+                              style="color: black;">
+                        <h:outputText value="#{list.strategyName}" />
+                    </p:column>
+
+                    <p:column headerText="Plantio" sortBy="#{list.farm.name}" style="color: black;">
+                        <h:outputText value="#{list.farm.name}"/>
+                    </p:column>
+
+                    <p:column headerText="Alterar" style="color: black;">
+                     <p:commandButton icon="pi pi-fw pi-file-edit" action="#{strategyBean.altera(list)}"
+                                      update="strategyTable" process="@this"
+                                      style="background: #BF9E75; border-color: #BF9E75; color: black;"/>
+                    </p:column>
+
+                    <p:column headerText="Remover" style="color: black;">
+                     <p:commandButton icon="pi pi-trash" styleClass="ui-button-danger"
+                                      action="#{strategyBean.remover(list)}" update="strategyTable"
+                                      process="@this" style="padding: 0px; margin: 0px;
+                                      background: red; border-color: red; color: white;"/>
+                    </p:column>
+
+                </p:dataTable>
+            </h:form>
+        </h:panelGrid>
+        <h:outputStylesheet library="primefaces-nova-dark" name="theme.css"/>
+    </ui:define>
+</ui:composition>
+</html>

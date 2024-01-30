@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+    <item
+        android:id="@+id/menu1"
+        android:title="@string/menu1"
+        app:showAsAction="never"
+        />
+
+    <item
+        android:id="@+id/job"
+        android:title="@string/task"
+        app:showAsAction="never">
+        <menu>
+            <item android:id="@+id/startJob"
+                android:title="@string/start"
+                />
+            <item android:id="@+id/stopJob"
+                android:title="@string/stop"/>
+        </menu>
+
+    </item>
+
+    <item android:id="@+id/logout"
+        android:title="@string/logout"
+        app:showAsAction="never"
+         />
+
+</menu>

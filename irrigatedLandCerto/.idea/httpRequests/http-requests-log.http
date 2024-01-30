@@ -1,0 +1,69 @@
+POST http://localhost:8080/acess/login
+Content-Type: application/json
+Content-Length: 38
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{"user": "admin", "password": "admin"}
+
+<> 2023-10-17T162751.404.html
+
+###
+
+POST http://localhost:8080/acess/login
+Content-Type: application/json
+Content-Length: 38
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{"user": "admin", "password": "admin"}
+
+<> 2023-10-17T162749.404.html
+
+###
+
+POST http://localhost:8080/acess/login
+Content-Type: application/json
+Content-Length: 38
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{"user": "admin", "password": "admin"}
+
+<> 2023-10-17T162742.404.html
+
+###
+
+POST http://localhost:8080/acess/login
+Content-Length: 0
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-10-17T162431.404.html
+
+###
+
+POST http://localhost:8080/acess/login
+Content-Length: 0
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-10-17T154026.404.html
+
+###
+
+POST http://localhost:8080/acess/login
+Content-Length: 0
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-10-17T154015.404.html
+
+###
+

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:f="http://xmlns.jcp.org/jsf/core"
+      xmlns:p="http://primefaces.org/ui">
+
+   <ui:composition template="_template.xhtml">
+      <ui:define name="conteudo">
+         <h:panelGrid style="background: #8C715A; border-radius: 8px; color: black;">
+            <h:form id="formProductTable" style="background: #A0A605;">
+               <p:dataTable value="#{productBean.list}" var="list" id="productTable" emptyMessage="Nenhum Dado"
+                            scrollable="false" scrollHeight="250" paginator="true" rows="10"
+                            style="border-color: black; text-align: center;">
+                  <f:facet name="header">Produtos</f:facet>
+
+                  <p:column headerText="Nome" sortBy="#{list.name}" filterBy="#{list.name}" filterMatchMode="contains"
+                            style="color: black; text-align: center;">
+                     <h:outputText value="#{list.name}" />
+                  </p:column>
+
+                  <p:column headerText="Temperatura" sortBy="#{list.temperature}"
+                            style="color: black; text-align: center;">
+                     <h:outputText value="#{list.temperature}"/>
+                  </p:column>
+
+                  <p:column headerText="Umidade" sortBy="#{list.moisture}"
+                            style="color: black; text-align: center;">
+                     <h:outputText value="#{list.moisture}" />
+                  </p:column>
+
+                  <p:column headerText="Alterar" style="color: black; text-align: center;">
+                     <p:commandButton icon="pi pi-fw pi-file-edit" action="#{productBean.altera(list)}"
+                                      update="productTable" process="@this"
+                                      style="background: #BF9E75; border-color: #BF9E75;
+                                      color: black;" onclick="PF('dlg3').show()"/>
+                  </p:column>
+
+                  <p:column headerText="Remover" style="color: black; text-align: center;">
+                     <p:commandButton icon="pi pi-trash" styleClass="ui-button-danger"
+                                      action="#{productBean.remover(list)}" update="productTable"
+                                      process="@this" style="padding: 0px; margin: 0px;
+                                      background: red; border-color: red; color: white;"/>
+                  </p:column>
+
+               </p:dataTable>
+            </h:form>
+         </h:panelGrid>
+         <h:outputStylesheet library="primefaces-nova-dark" name="theme.css"/>
+      </ui:define>
+   </ui:composition>
+</html>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<!--    Na home deve ter um menu lateral
+para acessar as paginas, nesse menu deve ter um botão
+de fazer logout.
+-->
+    <View
+        android:id="@+id/topHomeView"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:background="@color/green"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textUserHome"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        tools:ignore="MissingConstraints"
+        android:hint="@string/nome_do_usuario"
+        app:layout_constraintStart_toStartOf="@id/topHomeView"
+        app:layout_constraintTop_toTopOf="@id/topHomeView"
+        app:layout_constraintBottom_toBottomOf="@id/topHomeView"
+        android:layout_marginStart="20dp"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:clickable="true"
+        android:textColor="@color/black"/>
+
+    <ImageButton
+        android:id="@+id/buttonMenuHome"
+         android:layout_height="wrap_content"
+         android:layout_width="wrap_content"
+        android:background="@android:color/transparent"
+        app:srcCompat="@drawable/icon_menu_40"
+        app:layout_constraintEnd_toEndOf="@id/topHomeView"
+        app:layout_constraintTop_toTopOf="@id/topHomeView"
+        app:layout_constraintBottom_toBottomOf="@id/topHomeView"
+        android:layout_marginEnd="10dp"
+        tools:ignore="MissingConstraints" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/homeRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints"
+        app:layout_constraintTop_toBottomOf="@id/topHomeView"
+        tools:listitem="@layout/linha_item_home"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

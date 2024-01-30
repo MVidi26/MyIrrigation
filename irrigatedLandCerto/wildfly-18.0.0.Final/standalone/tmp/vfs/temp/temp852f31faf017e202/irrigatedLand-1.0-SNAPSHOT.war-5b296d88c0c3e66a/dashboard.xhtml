@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:f="http://xmlns.jcp.org/jsf/core"
+      xmlns:p="http://primefaces.org/ui">
+
+<ui:composition template="_template.xhtml">
+    <ui:define name="conteudo">
+        <div class="card" style="padding: 40px;">
+            <h:form>
+                <p:growl widgetVar="msgs"/>
+                <p:growl id="growl" showDetail="true" />
+                <p:growl id="growl-sticky" for="sticky-key" showDetail="true" sticky="true" />
+
+            </h:form>
+            <p:panelGrid columns="2" layout="grid"
+                         style="border-radius: 8px; color: black;  height: 20px; width: auto;
+                         text-align: center;">
+                <f:facet name="DashBoard">Dashboard</f:facet>
+
+                        <p:panel id="tempAmb" header="Umidade do Solo (%)" closable="false" toggleable="true"
+                                 style="margin: 16px; padding: 10px;">
+                            <h:outputText value="#{dashboardBean.moisture}"/>
+                        </p:panel>
+
+                        <p:panel id="tempGround" header="Temperadura do Solo (ºC)" closable="false" toggleable="true"
+                                 style="margin: 16px; padding: 10px;">
+                            <h:outputText value="#{dashboardBean.tempGround}"/>
+                        </p:panel>
+
+                        <p:panel id="mositure" header="Umidade do Ar (%)" closable="false" toggleable="true"
+                                       style="margin: 16px; padding: 10px;">
+                            <h:outputText value="#{dashboardBean.air.humidity}"/>
+                        </p:panel>
+
+                        <p:panel id="tempAir" header="Temperatura do Ar (ºC)" closable="false" toggleable="true"
+                                 style="margin: 16px; padding: 10px;">
+                            <h:outputText value="#{dashboardBean.air.temperature}"/>
+                        </p:panel>
+
+                        <p:panel id="waterFlow" header="Vazão de Água L/Min" closable="false" toggleable="true"
+                                 style="margin: 16px; padding: 10px;">
+                            <h:outputText value="#{dashboardBean.waterFlow}"/>
+                        </p:panel>
+
+                        <p:panel id="otherinfo2" header="Outra Informação" closable="false" toggleable="true"
+                                 style="margin: 16px; padding: 10px;">
+                            <h:outputText value="Outra Informação"/>
+                        </p:panel>
+            </p:panelGrid>
+        </div>
+        <h:outputStylesheet library="primefaces-nova-dark" name="theme.css"/>
+<!--        <h:outputStylesheet name="css/style.css"/>-->
+
+    </ui:define>
+</ui:composition>
+</html>

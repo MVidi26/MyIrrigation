@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:f="http://xmlns.jcp.org/jsf/core"
+      xmlns:p="http://primefaces.org/ui" xmlns:jsp="http://java.sun.com/jsf/facelets">
+
+<h:head/>
+<h:body style="padding: 0px; margin: 0px;" >
+    <div class="card" id="cabecalho" style="margin: 0px; padding: 0px;">
+        <!--<p:graphicImage library="img" name="logo.png" width="150" height="80"/>-->
+
+        <p:growl id="messages" showDetail="true" autoUpdate="true"/>
+
+        <h:form rendered="#{loginBean.loged}">
+
+                <p:menubar style="border-color: black; border-width: medium; padding: 0%; margin: 0%;">
+                    <!--pi-fw pi-power-off-->
+                    <p:menuitem value="Home" icon="pi pi-fw pi-home"
+                    style="color: black;" action="#{browser.dashboard()}"/>
+
+                    <p:submenu label="File" icon="pi pi-fw pi-file" style="color: white;">
+                        <p:submenu label="New" icon="pi pi-fw pi-plus">
+                            <p:menuitem value="Farming" icon="pi pi-fw pi-table"
+                                        action="#{browser.newFarming()}"/>
+                            <p:menuitem value="User" icon="pi pi-fw pi-user"
+                                        action="#{browser.newUser()}"/>
+                            <p:menuitem value="Strategy" icon="pi pi-fw pi-share-alt"
+                                        action="#{browser.newStrategy()}"/>
+                        </p:submenu>
+                        <p:menuitem value="Delete" icon="pi pi-fw pi-trash"/>
+                        <p:divider />
+                        <p:menuitem value="Export" icon="pi pi-fw pi-external-link"/>
+                    </p:submenu>
+
+                    <!--<p:submenu label="Tabela" icon="pi-table">
+                        <p:menuitem value="Tabela de Clientes" icon="pi-users" action="#{clientBean.irParaMenuPrincipal}"/>
+                        <p:menuitem value="Right" icon="pi pi-fw pi-align-right"/>
+                        <p:menuitem value="Center" icon="pi pi-fw pi-align-center"/>
+                        <p:menuitem value="Justify" icon="pi pi-fw pi-align-justify"/>
+                    </p:submenu>-->
+
+                    <p:submenu label="Others" icon="pi pi-fw pi-file-o">
+                        <p:menuitem value="Strategy" icon="pi pi-fw pi-share-alt"
+                                    action="#{browser.mainStrategy()}"/>
+                        <p:menuitem value="Users" icon="pi pi-fw pi-user-plus"
+                                    action="#{browser.mainUser()}"/>
+                        <p:menuitem value="Products" icon="pi pi-fw pi-cart-plus"
+                                    action="#{browser.products()}"/>
+                        <p:menuitem value="Graphs" icon="pi pi-fw pi-chart-line"/>
+                        <p:menuitem value="Delete" icon="pi pi-fw pi-user-minus"/>
+                        <p:submenu label="Search" icon="pi pi-fw pi-users">
+                            <p:submenu label="Filter" icon="pi pi-fw pi-filter">
+                                <p:menuitem value="Print" icon="pi pi-fw pi-print"/>
+                            </p:submenu>
+                            <p:menuitem value="List" icon="pi pi-fw pi-list"/>
+                        </p:submenu>
+                    </p:submenu>
+
+                    <!--<p:submenu label="Events" icon="pi pi-fw pi-calendar">
+                        <p:submenu label="Edit" icon="pi pi-fw pi-pencil">
+                            <p:menuitem value="Save" icon="pi pi-fw pi-calendar-plus"/>
+                            <p:menuitem value="Delete" icon="pi pi-fw pi-calendar-minus"/>
+                        </p:submenu>
+                        <p:submenu label="Archieve" icon="pi pi-fw pi-calendar-times">
+                            <p:menuitem value="Remove" icon="pi pi-fw pi-calendar-minus"/>
+                        </p:submenu>
+                    </p:submenu>-->
+
+                    <p:divider layout="vertical" style="font-weight: bold;
+                    border-left-width: 2px;"/>
+
+                    <p:menuitem style="padding: 0%;">
+                        <p:outputLabel value="Job: " style="color: black;
+                        margin-right: 5px; font-style: inherit; margin-left: 5px;"/>
+                    </p:menuitem>
+                    <p:menuitem style="padding: 0px;">
+                        <p:commandButton value ="Start" icon="pi pi-fw pi-circle" action="#{jobSchedulerBean.startJob()}"
+                                         style="background-color: #4caf50;
+                                         color:white; border-color: #4caf50;
+                                         border-radius: 10px; margin-right: 3px;"/>
+                    </p:menuitem>
+
+                    <p:menuitem style="padding: 0px;">
+                        <p:commandButton value="Stop" icon="pi pi-fw pi-stop" action="#{jobSchedulerBean.pauseJob()}"
+                                         style="background-color: red;
+                                         color: white; border-color: red;
+                                         border-radius: 10px; padding: 0px;
+                                         margin: 0px;"/>
+                    </p:menuitem>
+
+                    <f:facet name="options">
+                        <div class="ui-input-icon-left mr-2" style="color: black;  align-items: center;">
+                            <i class="pi pi-fw pi-search" />
+                            <p:inputText placeholder="Search" style="color: black; margin-top: 2px"/>
+                        </div>
+                        <p:commandButton value="Leave" icon="pi pi-fw pi-sign-out" styleClass="ui-button-info"
+                        style="background-color: black;
+                        color: rgb(233, 105, 0);
+                        margin-top: 2px; align-items: center;" action="#{loginBean.logout()}"/>
+                    </f:facet>
+                </p:menubar>
+        </h:form>
+        <h1 >
+            <ui:insert name="titulo"></ui:insert>
+        </h1>
+    </div>
+
+    <div id="conteudo" style="padding: 0px; margin: 0px;">
+        <ui:insert name="conteudo">
+        </ui:insert>
+    </div>
+    <h:outputStylesheet library="primefaces-nova-dark" name="theme.css"/>
+</h:body>
+</html>

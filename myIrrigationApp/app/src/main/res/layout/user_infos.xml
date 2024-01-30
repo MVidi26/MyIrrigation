@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/user_Info">
+
+    <View
+        android:id="@+id/viewUserTopBar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="@color/green"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/userNameUserInfoId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:hint="@string/user_name"
+        app:layout_constraintTop_toBottomOf="@id/viewUserTopBar"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/cityUserInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginStart="100dp"
+        android:textSize="16sp"
+        android:layout_marginEnd="50dp"
+        android:text="@string/city"
+        tools:layout_editor_absoluteX="80dp"
+        tools:layout_editor_absoluteY="169dp"
+        app:layout_constraintTop_toBottomOf="@id/userNameUserInfoId"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/cityValueUserInfo"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/cityValueUserInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:textSize="16sp"
+        android:layout_marginEnd="100dp"
+        android:hint="@string/value"
+        app:layout_constraintTop_toBottomOf="@id/userNameUserInfoId"
+        app:layout_constraintStart_toEndOf="@id/cityUserInfo"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:ignore="MissingConstraints"/>
+
+    <TextView
+        android:id="@+id/stateUserInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginStart="0dp"
+        android:textSize="16sp"
+        android:layout_marginEnd="50dp"
+        android:text="@string/state"
+        app:layout_constraintTop_toBottomOf="@id/cityUserInfo"
+        app:layout_constraintStart_toStartOf="@id/cityUserInfo"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/stateValueUserInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/value"
+        app:layout_constraintTop_toBottomOf="@id/cityValueUserInfo"
+        app:layout_constraintStart_toStartOf="@id/cityValueUserInfo"
+        android:layout_marginTop="15dp"
+        android:textSize="16sp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/countryUserInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="50dp"
+        android:textSize="16sp"
+        android:text="@string/country"
+        app:layout_constraintEnd_toStartOf="@id/countryValueUserInfo"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@id/stateUserInfo"
+        app:layout_constraintTop_toBottomOf="@id/stateUserInfo"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/countryValueUserInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="100dp"
+        android:textSize="16sp"
+        android:hint="@string/value"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@id/stateValueUserInfo"
+        app:layout_constraintTop_toBottomOf="@id/stateValueUserInfo"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/cepUserInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="15dp"
+        android:textSize="16sp"
+        android:layout_marginEnd="50dp"
+        android:text="@string/cep"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintTop_toBottomOf="@id/countryUserInfo"
+        app:layout_constraintStart_toStartOf="@id/countryUserInfo"
+        tools:ignore="MissingConstraint" />
+
+    <TextView
+        android:id="@+id/cepValueUserInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:textSize="16sp"
+        android:layout_marginEnd="100dp"
+        android:hint="@string/value"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@id/stateValueUserInfo"
+        app:layout_constraintTop_toBottomOf="@id/countryValueUserInfo"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/emailUserInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:textSize="16sp"
+        android:text="@string/email"
+        app:layout_constraintTop_toBottomOf="@id/cepUserInfo"
+        app:layout_constraintStart_toStartOf="@id/cepUserInfo"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/emailUserInfoValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:textSize="16sp"
+        android:hint="@string/value"
+        app:layout_constraintTop_toBottomOf="@id/cepValueUserInfo"
+        app:layout_constraintStart_toStartOf="@id/cepValueUserInfo"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/phoneUserInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:textSize="16sp"
+        android:text="@string/phone"
+        app:layout_constraintTop_toBottomOf="@id/emailUserInfo"
+        app:layout_constraintStart_toStartOf="@id/emailUserInfo"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/phoneUserInfoValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:textSize="16sp"
+        android:hint="@string/value"
+        app:layout_constraintTop_toBottomOf="@id/emailUserInfoValue"
+        app:layout_constraintStart_toStartOf="@id/emailUserInfoValue"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/buttonReturnUserInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="50dp"
+        android:backgroundTint="@color/light_green"
+        android:text="@string/back"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

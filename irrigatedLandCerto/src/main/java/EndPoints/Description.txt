@@ -1,0 +1,2 @@
+EndPoints Folder:
+ - Contains the class with the EndPoints of the ESP8266 board to obtain the value of the sensors.

@@ -1,0 +1,15 @@
+2023-09-27 00:00:27,318 INFO  [stdout] (default task-1) /dashboard.xhtml
+2023-09-27 00:00:27,341 INFO  [org.quartz.core.QuartzScheduler] (default task-1) Scheduler JobQuartz_$_NON_CLUSTERED started.
+2023-09-27 00:00:27,353 INFO  [stdout] (JobQuartz_Worker-2) Executando...
+2023-09-27 00:00:27,362 INFO  [stdout] (JobQuartz_Worker-2) RandomValue2
+2023-09-27 00:00:27,363 INFO  [stdout] (JobQuartz_Worker-2) Message: 0
+2023-09-27 00:00:27,401 INFO  [stdout] (default task-1) /dashboard.xhtml
+2023-09-27 00:00:44,258 INFO  [stdout] (default task-1) /dashboard.xhtml
+2023-09-27 00:00:44,262 INFO  [org.quartz.core.QuartzScheduler] (default task-1) Scheduler JobQuartz_$_NON_CLUSTERED started.
+2023-09-27 00:00:44,281 INFO  [stdout] (JobQuartz_Worker-3) Executando...
+2023-09-27 00:00:44,289 INFO  [stdout] (JobQuartz_Worker-3) RandomValue8
+2023-09-27 00:00:44,289 INFO  [stdout] (JobQuartz_Worker-3) Message: 0
+2023-09-27 00:00:44,294 INFO  [stdout] (default task-1) /dashboard.xhtml
+2023-09-27 00:01:02,069 INFO  [stdout] (default task-1) /dashboard.xhtml
+2023-09-27 00:01:02,070 INFO  [stdout] (default task-1) Parando ...
+2023-09-27 00:01:02,090 INFO  [stdout] (default task-1) /dashboard.xhtml

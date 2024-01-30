@@ -1,0 +1,6 @@
+Bean Folder:
+- DashBoardBean, main interface, contains sensor values.
+Sensors Folder:
+  - Contains the objects used to store the value obtained from the sensors.
+Service Folder:
+- Folder with interfaces and Service classes, responsible for obtaining sensor values.

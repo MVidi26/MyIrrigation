@@ -1,0 +1,2 @@
+2023-09-18 00:00:02,030 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-4) WFLYJCA0019: Stopped Driver service with driver-name = irrigatedLand-1.0-SNAPSHOT.war_org.postgresql.Driver_42_5
+2023-09-18 00:00:02,105 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 80) WFLYUT0022: Unregistered web context: '/irrigatedLand-1.0-SNAPSHOT' from server 'default-server'

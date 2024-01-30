@@ -1,0 +1,2 @@
+TopicServiceBean class responsible for providing mqtt publication/subscription topics.
+TopicService and TopicRemoteService are the service interfaces
